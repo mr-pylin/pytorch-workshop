@@ -38,6 +38,9 @@ I look forward to connecting with you!
    - **TorchVision Documentations**:
       - The torchvision package [part of the PyTorch] consists of popular datasets, model architectures, and common image transformations for computer vision.
       - Link: [pytorch.org/vision/stable/index.html](https://pytorch.org/vision/stable/index.html)
+   - **TorchAudio Documentation**:
+      - The torchaudio package [part of the PyTorch] consists of audio I/O and signal processing functionalities, enabling efficient loading, transforming, and manipulating audio.
+      - Link: [pytorch.org/audio/stable/index.html](https://pytorch.org/audio/stable/index.html)
    - **NumPy Website**:
       - The official website for NumPy, providing information, tutorials, and resources for the NumPy library
       - Link: [numpy.org](https://numpy.org/)
