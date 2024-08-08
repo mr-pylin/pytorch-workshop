@@ -1,9 +1,8 @@
-numpy>=1.26.4,<2.0.0
-matplotlib>=3.9.0,<4.0.0
-matplotlib-inline>=0.1.7,<1.0.0
+numpy==1.26.4
+matplotlib==3.9.1
 torch==2.4.0+cu124
 torchvision==0.19.0+cu124
-torchinfo>=1.8.0,<2.0.0
-torchmetrics>=1.4.1,<2.0.0
-scikit-learn>=1.5.1,<2.0.0
+torchinfo==1.8.0
+torchmetrics==1.4.1
+scikit-learn==1.5.1
 --extra-index-url https://download.pytorch.org/whl/cu124
