@@ -20,6 +20,7 @@ venv.bak/
 
 # dataset folders
 dataset/
+datasets/
 
 # vscode
 .vscode/
