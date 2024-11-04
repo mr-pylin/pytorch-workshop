@@ -113,4 +113,14 @@ Any mistakes, suggestions, or contributions? Feel free to reach out to me at:
 I look forward to connecting with you! 🏃‍♂️
 
 # 📄 License
-This repository is licensed under the **[MIT License](./LICENSE)**, except for the contents in the [./assets/images/SVGs/](./assets/images/SVGs/) path, which are licensed under the **[CC BY-ND 4.0](./assets/images/SVGs/LICENSE)**.
+This project is licensed under the **[Apache License 2.0](./LICENSE)**.  
+You are free to use, modify, and distribute this code, but you must include copies of both the [**LICENSE**](./LICENSE) and [**NOTICE**](./NOTICE) files in any distribution of your work.
+
+## ✍️ Additional Licensing Information
+- **SVG Images**:
+   - The SVG images located in the [./assets/images/svgs/](./assets/images/svgs/) folder are licensed under the **[CC BY-ND 4.0](./assets/images/svgs/LICENSE)**.
+   - Note: This license restricts derivative works, meaning you may share these images but cannot modify them.
+
+- **Third-Party Assets**:
+   - Additional images located in [./assets/images/third_party/](./assets/images/third_party/) are used with permission or according to their original licenses.
+   - Attributions and references to original sources are included in the code where these images are used.
