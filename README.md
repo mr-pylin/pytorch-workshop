@@ -53,6 +53,7 @@ A collection of concepts and tools utilized in the main notebooks for training m
    1. [**GoogLeNet Architecture**](./codes/models/CNN/04_googlenet-architecture.ipynb)
    1. [**ResNet Architecture**](./codes/models/CNN/05_resnet-architecture.ipynb)
    1. [**DenseNet Architecture**](./codes/models/CNN/06_densenet-architecture.ipynb)
+   1. [**EfficientNet Architecture**](./codes/models/CNN/07_efficientnet-architecture.ipynb)
 
 ### Projects
    1. [**Multi-Layer Perceptrons**](./codes/projects/01_multi-layer-perceptrons.ipynb)  
