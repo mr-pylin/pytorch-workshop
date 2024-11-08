@@ -18,7 +18,7 @@ limitations under the License.
 This project includes educational code developed by Amirhossein Heydari.
 
 **Third-Party Licenses**  
-- This repository contains SVG images in `./assets/images/svgs/` under the Creative Commons Attribution-NoDerivatives (CC BY-ND) license.  
+- This repository contains original images in `./assets/images/original/` under the Creative Commons Attribution-NoDerivatives (CC BY-ND) license.  
   Please refer to the `LICENSE` file within that folder for details.
   
 - Additional images in `./assets/images/third_party/` are used with permission or according to their original licenses.  
