@@ -137,8 +137,8 @@ This project is licensed under the **[Apache License 2.0](./LICENSE)**.
 You are free to use, modify, and distribute this code, but you must include copies of both the [**LICENSE**](./LICENSE) and [**NOTICE**](./NOTICE) files in any distribution of your work.
 
 ## ✍️ Additional Licensing Information
-- **SVG Images**:
-   - The SVG images located in the [./assets/images/svgs/](./assets/images/svgs/) folder are licensed under the **[CC BY-ND 4.0](./assets/images/svgs/LICENSE)**.
+- **Original Images**:
+   - The images located in the [./assets/images/original/](./assets/images/original/) folder are licensed under the **[CC BY-ND 4.0](./assets/images/original/LICENSE)**.
    - Note: This license restricts derivative works, meaning you may share these images but cannot modify them.
 
 - **Third-Party Assets**:
