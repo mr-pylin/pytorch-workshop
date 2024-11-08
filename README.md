@@ -3,63 +3,61 @@ A comprehensive PyTorch workshop covering the fundamentals and advanced techniqu
 
 ## 📖 Table of Contents
 ### Main Notebooks
-   0. [**Introduction to Tensors**](./codes/00_tensor.ipynb)  
+   1. [**Introduction to Tensors**](./codes/01_tensor.ipynb)  
    Learn about PyTorch tensors, the foundational data structure, and how to manipulate them.
-   0. [**Gradient and Autograd**](./codes/01_gradient.ipynb)  
+   1. [**Gradient and Autograd**](./codes/02_gradient.ipynb)  
    Understand gradients, automatic differentiation, and how PyTorch handles backpropagation with `autograd`.
-   0. [**Perceptron and AdaLiNe**](./codes/02_perceptron.ipynb)  
+   1. [**Perceptron and AdaLiNe**](./codes/03_perceptron.ipynb)  
    Explore the basics of the simplest neural network model (perceptron) and Adaptive Linear Neuron (Adaline).
-   0. [**Linear Regression**](./codes/03_linear-regression.ipynb)  
+   1. [**Linear Regression**](./codes/04_linear-regression.ipynb)  
    Implement linear regression using PyTorch, including model training and prediction.
-   0. [**Logistic Regression**](./codes/04_logistic-regression.ipynb)  
+   1. [**Logistic Regression**](./codes/05_logistic-regression.ipynb)  
    Learn how to build a logistic regression model for binary classification tasks.
-   0. [**Multi-Layer Perceptrons**](./codes/05_multi-layer-perceptrons.ipynb)  
+   1. [**Multi-Layer Perceptrons**](./codes/06_multi-layer-perceptrons.ipynb)  
    Implement and explore multi-layer perceptron (MLP) for more complex tasks.
-   0. [**Radial Basis Function Networks**](./codes/06_radial-basis-function-networks.ipynb)  
+   1. [**Radial Basis Function Networks**](./codes/07_radial-basis-function-networks.ipynb)  
    Implement and explore Radial Basis Function (RBF) networks and how they differ from traditional neural networks.
-   0. [**Convolutional Neural Networks**](./codes/07_convolutional-neural-networks.ipynb)  
+   1. [**Convolutional Neural Networks**](./codes/08_convolutional-neural-networks.ipynb)  
    Explore concepts around convolutional neural networks (CNNs).
-   0. [**Feature Extraction**](./codes/08_feature-extraction.ipynb)  
+   1. [**Feature Extraction**](./codes/09_feature-extraction.ipynb)  
    Learn how to extract features from pre-trained models for downstream tasks.
-   0. [**Transfer Learning**](./codes/09_transfer-learning.ipynb)  
+   1. [**Transfer Learning**](./codes/10_transfer-learning.ipynb)  
    Apply transfer learning by using pre-trained models for a new tasks.
-   0. [**Fine-Tuning Models**](./codes/10_fine-tuning.ipynb)  
+   1. [**Fine-Tuning Models**](./codes/11_fine-tuning.ipynb)  
    Understand how to fine-tune models by updating specific layers while freezing others.
-   0. [**Recurrent Neural Networks**](./codes/11_recurrent-neural-networks.ipynb)  
+   1. [**Recurrent Neural Networks**](./codes/12_recurrent-neural-networks.ipynb)  
    Explore concepts around recurrent neural networks (RNNs).
 
 ### Utilities
 A collection of concepts and tools utilized in the main notebooks for training models, ...  
-
-   0. [**Activation Functions**](./codes/utils/00_activation-functions.ipynb)  
+   1. [**Activation Functions**](./codes/utils/01_activation-functions.ipynb)  
       Study different activation functions (ReLU, Sigmoid, Tanh, ...) and their roles in neural networks.
-   0. [**Loss Functions**](./codes/utils/01_loss-functions.ipynb)  
+   1. [**Loss Functions**](./codes/utils/02_loss-functions.ipynb)  
       Dive into common loss functions used in neural networks, including MSE, Cross-Entropy, and others.
-   0. [**Working with Datasets**](./codes/utils/02_datasets.ipynb)  
+   1. [**Working with Datasets**](./codes/utils/03_datasets.ipynb)  
       Understand how to work with datasets in PyTorch using `torch.utils.data.Dataset` and `torch.utils.data.DataLoader`.
-   0. [**Custom Implementations**](./codes/utils/03_customs.ipynb)  
+   1. [**Custom Implementations**](./codes/utils/04_customs.ipynb)  
       Learn how to define custom models, dataset, loss function, ... using PyTorch's class-based approach.
-   0. [**Data Transforms**](./codes/utils/04_transforms.ipynb)  
+   1. [**Data Transforms**](./codes/utils/05_transforms.ipynb)  
       Learn to apply transforms like data augmentation on datasets using `torchvision.transforms.v2`.
-   0. [**Normalizations**](./codes/utils/05_normalizations.ipynb)  
+   1. [**Normalizations**](./codes/utils/06_normalizations.ipynb)  
       Understand normalization techniques such as Batch Normalization and Layer Normalization.
-   0. [**Checkpoints**](./codes/utils/06_checkpoints.ipynb)  
+   1. [**Checkpoints**](./codes/utils/07_checkpoints.ipynb)  
       Learn how to save and load model checkpoints to resume training or for inference.
 
 ### Models
-- [**CNN Architectures**](./codes/models/)
-
-   0. [**LeNet-5 Architecture**](./codes/models/CNN/00_lenet5-architecture.ipynb)  
-   0. [**AlexNet Architecture**](./codes/models/CNN/01_alexnet-architecture.ipynb)  
-   0. [**VGGNet Architecture**](./codes/models/CNN/02_vggnet-architecture.ipynb)  
-   0. [**GoogLeNet Architecture**](./codes/models/CNN/03_googlenet-architecture.ipynb)  
-   0. [**ResNet Architecture**](./codes/models/CNN/04_resnet-architecture.ipynb)  
-   0. [**DenseNet Architecture**](./codes/models/CNN/05_densenet-architecture.ipynb)  
+- **CNN Architectures**
+   1. [**LeNet-5 Architecture**](./codes/models/CNN/01_lenet5-architecture.ipynb)
+   1. [**AlexNet Architecture**](./codes/models/CNN/02_alexnet-architecture.ipynb)
+   1. [**VGGNet Architecture**](./codes/models/CNN/03_vggnet-architecture.ipynb)
+   1. [**GoogLeNet Architecture**](./codes/models/CNN/04_googlenet-architecture.ipynb)
+   1. [**ResNet Architecture**](./codes/models/CNN/05_resnet-architecture.ipynb)
+   1. [**DenseNet Architecture**](./codes/models/CNN/06_densenet-architecture.ipynb)
 
 ### Projects
-   0. [**Multi-Layer Perceptron**](./codes/projects/00_multi-layer-perceptron.ipynb)  
+   1. [**Multi-Layer Perceptrons**](./codes/projects/01_multi-layer-perceptrons.ipynb)  
    A comprehensive example to building, training, and deploying a MLP, from data preprocessing to prediction.
-   0. [**Convolutional Neural Networks**](./codes/projects/01_convolutional-neural-networks.ipynb)  
+   1. [**Convolutional Neural Networks**](./codes/projects/02_convolutional-neural-networks.ipynb)  
    A comprehensive example to building, training, and deploying a CNN, from data preprocessing to prediction.
 
 
