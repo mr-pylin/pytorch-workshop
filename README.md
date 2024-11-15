@@ -38,6 +38,8 @@ A collection of concepts and tools utilized in the main notebooks for training m
       Learn how to define custom models, dataset, loss function, ... using PyTorch's class-based approach.
    - [**Working with Datasets**](./codes/utils/datasets.ipynb)  
       Understand how to work with datasets in PyTorch using `torch.utils.data.Dataset` and `torch.utils.data.DataLoader`.
+   - [**Parameters vs. Hyperparameters**](./codes/utils/hyperparameters.ipynb)  
+      Understand the difference between parameters and hyperparameters in neural networks.
    - [**Loss Functions**](./codes/utils/loss-functions.ipynb)  
       Dive into common loss functions used in neural networks, including MSE, Cross-Entropy, and others.
    - [**Normalizations**](./codes/utils/normalizations.ipynb)  
