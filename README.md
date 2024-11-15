@@ -30,20 +30,20 @@ A comprehensive PyTorch workshop covering the fundamentals and advanced techniqu
 
 ### Utilities
 A collection of concepts and tools utilized in the main notebooks for training models, ...  
-   1. [**Activation Functions**](./codes/utils/01_activation-functions.ipynb)  
+   - [**Activation Functions**](./codes/utils/activation-functions.ipynb)  
       Study different activation functions (ReLU, Sigmoid, Tanh, ...) and their roles in neural networks.
-   1. [**Loss Functions**](./codes/utils/02_loss-functions.ipynb)  
-      Dive into common loss functions used in neural networks, including MSE, Cross-Entropy, and others.
-   1. [**Working with Datasets**](./codes/utils/03_datasets.ipynb)  
-      Understand how to work with datasets in PyTorch using `torch.utils.data.Dataset` and `torch.utils.data.DataLoader`.
-   1. [**Custom Implementations**](./codes/utils/04_customs.ipynb)  
-      Learn how to define custom models, dataset, loss function, ... using PyTorch's class-based approach.
-   1. [**Data Transforms**](./codes/utils/05_transforms.ipynb)  
-      Learn to apply transforms like data augmentation on datasets using `torchvision.transforms.v2`.
-   1. [**Normalizations**](./codes/utils/06_normalizations.ipynb)  
-      Understand normalization techniques such as Batch Normalization and Layer Normalization.
-   1. [**Checkpoints**](./codes/utils/07_checkpoints.ipynb)  
+   - [**Checkpoints**](./codes/utils/checkpoints.ipynb)  
       Learn how to save and load model checkpoints to resume training or for inference.
+   - [**Custom Implementations**](./codes/utils/customs.ipynb)  
+      Learn how to define custom models, dataset, loss function, ... using PyTorch's class-based approach.
+   - [**Working with Datasets**](./codes/utils/datasets.ipynb)  
+      Understand how to work with datasets in PyTorch using `torch.utils.data.Dataset` and `torch.utils.data.DataLoader`.
+   - [**Loss Functions**](./codes/utils/loss-functions.ipynb)  
+      Dive into common loss functions used in neural networks, including MSE, Cross-Entropy, and others.
+   - [**Normalizations**](./codes/utils/normalizations.ipynb)  
+      Understand normalization techniques such as Batch Normalization and Layer Normalization.
+   - [**Data Transforms**](./codes/utils/transforms.ipynb)  
+      Learn to apply transforms like data augmentation on datasets using `torchvision.transforms.v2`.
 
 ### Models
 - **CNN Architectures**
