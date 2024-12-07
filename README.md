@@ -46,6 +46,8 @@ A collection of concepts and tools utilized in the main notebooks for training m
       Understand normalization techniques such as Batch Normalization and Layer Normalization.
    - [**Data Transforms**](./codes/utils/transforms.ipynb)  
       Learn to apply transforms like data augmentation on datasets using `torchvision.transforms.v2`.
+   - [**Word Embeddings**](./codes/utils/word-embeddings.ipynb)  
+      Explore different word embedding techniques and their applications in natural language processing.
 
 ### Models
 - **CNN Architectures**
@@ -59,9 +61,12 @@ A collection of concepts and tools utilized in the main notebooks for training m
 
 ### Projects
    1. [**Multi-Layer Perceptrons**](./codes/projects/01_multi-layer-perceptrons.ipynb)  
-   A comprehensive example to building, training, and deploying a MLP, from data preprocessing to prediction.
+      A comprehensive example to building, training, and deploying a MLP, from data preprocessing to prediction.
    1. [**Convolutional Neural Networks**](./codes/projects/02_convolutional-neural-networks.ipynb)  
-   A comprehensive example to building, training, and deploying a CNN, from data preprocessing to prediction.
+      A comprehensive example to building, training, and deploying a CNN, from data preprocessing to prediction.
+   4. [**Word2Vec Word Embedding**](./codes/projects/04_word2vec-word-embedding.ipynb)  
+      An in-depth guide to implementing the Word2Vec algorithm for word embeddings in natural language processing.
+
 
 
 ## 📋 Prerequisites
