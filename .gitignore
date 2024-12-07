@@ -167,5 +167,8 @@ cython_debug/
 dataset/
 datasets/
 
+# temporary files
+assets/embeddings/
+
 # vscode
 .vscode/
