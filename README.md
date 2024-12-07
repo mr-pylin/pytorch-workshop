@@ -34,7 +34,7 @@ A collection of concepts and tools utilized in the main notebooks for training m
       Study different activation functions (ReLU, Sigmoid, Tanh, ...) and their roles in neural networks.
    - [**Checkpoints**](./codes/utils/checkpoints.ipynb)  
       Learn how to save and load model checkpoints to resume training or for inference.
-   - [**Custom Implementations**](./codes/utils/customs.ipynb)  
+   - [**Custom Implementations**](./codes/utils/custom-classes.ipynb)  
       Learn how to define custom models, dataset, loss function, ... using PyTorch's class-based approach.
    - [**Working with Datasets**](./codes/utils/dataset-dataloader.ipynb)  
       Understand how to work with datasets in PyTorch using `torch.utils.data.Dataset` and `torch.utils.data.DataLoader`.
