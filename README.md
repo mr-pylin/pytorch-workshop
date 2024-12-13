@@ -1,4 +1,6 @@
 # 🔥 PyTorch Workshop
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmr-pylin%2Fpytorch-workshop.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmr-pylin%2Fpytorch-workshop?ref=badge_shield)
+
 A comprehensive PyTorch workshop covering the fundamentals and advanced techniques of deep learning.
 
 ## 📖 Table of Contents
@@ -143,6 +145,9 @@ I look forward to connecting with you! 🏃‍♂️
 # 📄 License
 This project is licensed under the **[Apache License 2.0](./LICENSE)**.  
 You are free to use, modify, and distribute this code, but you must include copies of both the [**LICENSE**](./LICENSE) and [**NOTICE**](./NOTICE) files in any distribution of your work.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmr-pylin%2Fpytorch-workshop.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmr-pylin%2Fpytorch-workshop?ref=badge_large)
 
 ## ✍️ Additional Licensing Information
 - **Original Images**:
