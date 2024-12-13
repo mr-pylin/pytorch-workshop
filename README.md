@@ -13,29 +13,29 @@ A comprehensive **PyTorch** workshop covering the fundamentals and advanced tech
 
 ## 📖 Table of Contents
 ### Main Notebooks
-   1. [**Introduction to Tensors**](./codes/01_tensor.ipynb)  
+   1. [**Introduction to Tensors**](./codes/01-tensor.ipynb)  
    Learn about PyTorch tensors, the foundational data structure, and how to manipulate them.
-   1. [**Gradient and Autograd**](./codes/02_gradient.ipynb)  
+   1. [**Gradient and Autograd**](./codes/02-gradient.ipynb)  
    Understand gradients, automatic differentiation, and how PyTorch handles backpropagation with `autograd`.
-   1. [**Perceptron and AdaLiNe**](./codes/03_perceptron.ipynb)  
+   1. [**Perceptron and AdaLiNe**](./codes/03-perceptron.ipynb)  
    Explore the basics of the simplest neural network model (perceptron) and Adaptive Linear Neuron (Adaline).
-   1. [**Linear Regression**](./codes/04_linear-regression.ipynb)  
+   1. [**Linear Regression**](./codes/04-linear-regression.ipynb)  
    Implement linear regression using PyTorch, including model training and prediction.
-   1. [**Logistic Regression**](./codes/05_logistic-regression.ipynb)  
+   1. [**Logistic Regression**](./codes/05-logistic-regression.ipynb)  
    Learn how to build a logistic regression model for binary classification tasks.
-   1. [**Multi-Layer Perceptrons**](./codes/06_multi-layer-perceptrons.ipynb)  
+   1. [**Multi-Layer Perceptrons**](./codes/06-multi-layer-perceptrons.ipynb)  
    Implement and explore multi-layer perceptron (MLP) for more complex tasks.
-   1. [**Radial Basis Function Networks**](./codes/07_radial-basis-function-networks.ipynb)  
+   1. [**Radial Basis Function Networks**](./codes/07-radial-basis-function-networks.ipynb)  
    Implement and explore Radial Basis Function (RBF) networks and how they differ from traditional neural networks.
-   1. [**Convolutional Neural Networks**](./codes/08_convolutional-neural-networks.ipynb)  
+   1. [**Convolutional Neural Networks**](./codes/08-convolutional-neural-networks.ipynb)  
    Explore concepts around convolutional neural networks (CNNs).
-   1. [**Feature Extraction**](./codes/09_feature-extraction.ipynb)  
+   1. [**Feature Extraction**](./codes/09-feature-extraction.ipynb)  
    Learn how to extract features from pre-trained models for downstream tasks.
-   1. [**Transfer Learning**](./codes/10_transfer-learning.ipynb)  
+   1. [**Transfer Learning**](./codes/10-transfer-learning.ipynb)  
    Apply transfer learning by using pre-trained models for a new tasks.
-   1. [**Fine-Tuning Models**](./codes/11_fine-tuning.ipynb)  
+   1. [**Fine-Tuning Models**](./codes/11-fine-tuning.ipynb)  
    Understand how to fine-tune models by updating specific layers while freezing others.
-   1. [**Recurrent Neural Networks**](./codes/12_recurrent-neural-networks.ipynb)  
+   1. [**Recurrent Neural Networks**](./codes/12-recurrent-neural-networks.ipynb)  
    Explore concepts around recurrent neural networks (RNNs).
 
 ### Utilities
@@ -61,20 +61,20 @@ A collection of concepts and tools utilized in the main notebooks for training m
 
 ### Models
 - **CNN Architectures**
-   1. [**LeNet-5 Architecture**](./codes/models/CNN/01_lenet5-architecture.ipynb)
-   1. [**AlexNet Architecture**](./codes/models/CNN/02_alexnet-architecture.ipynb)
-   1. [**VGGNet Architecture**](./codes/models/CNN/03_vggnet-architecture.ipynb)
-   1. [**GoogLeNet Architecture**](./codes/models/CNN/04_googlenet-architecture.ipynb)
-   1. [**ResNet Architecture**](./codes/models/CNN/05_resnet-architecture.ipynb)
-   1. [**DenseNet Architecture**](./codes/models/CNN/06_densenet-architecture.ipynb)
-   1. [**EfficientNet Architecture**](./codes/models/CNN/07_efficientnet-architecture.ipynb)
+   1. [**LeNet-5 Architecture**](./codes/models/CNN/01-lenet5-architecture.ipynb)
+   1. [**AlexNet Architecture**](./codes/models/CNN/02-alexnet-architecture.ipynb)
+   1. [**VGGNet Architecture**](./codes/models/CNN/03-vggnet-architecture.ipynb)
+   1. [**GoogLeNet Architecture**](./codes/models/CNN/04-googlenet-architecture.ipynb)
+   1. [**ResNet Architecture**](./codes/models/CNN/05-resnet-architecture.ipynb)
+   1. [**DenseNet Architecture**](./codes/models/CNN/06-densenet-architecture.ipynb)
+   1. [**EfficientNet Architecture**](./codes/models/CNN/07-efficientnet-architecture.ipynb)
 
 ### Projects
-   1. [**Multi-Layer Perceptrons**](./codes/projects/01_multi-layer-perceptrons.ipynb)  
+   1. [**Multi-Layer Perceptrons**](./codes/projects/01-multi-layer-perceptrons.ipynb)  
       A comprehensive example to building, training, and deploying a MLP, from data preprocessing to prediction.
-   1. [**Convolutional Neural Networks**](./codes/projects/02_convolutional-neural-networks.ipynb)  
+   1. [**Convolutional Neural Networks**](./codes/projects/02-convolutional-neural-networks.ipynb)  
       A comprehensive example to building, training, and deploying a CNN, from data preprocessing to prediction.
-   4. [**Word2Vec Word Embedding**](./codes/projects/04_word2vec-word-embedding.ipynb)  
+   4. [**Word2Vec Word Embedding**](./codes/projects/04-word2vec-word-embedding.ipynb)  
       An in-depth guide to implementing the Word2Vec algorithm for word embeddings in natural language processing.
 
 ## 📋 Prerequisites
@@ -87,15 +87,15 @@ A collection of concepts and tools utilized in the main notebooks for training m
          - My Data Visualization Workshop: [github.com/mr-pylin/data-visualization-workshop](https://github.com/mr-pylin/data-visualization-workshop)
    - 🔣 **Mathematics for Machine Learning**
       - 🔲 **Linear Algebra**: Vectors, matrices, matrix operations.
-         - [**Linear Algebra Review and Reference**](https://www.cs.cmu.edu/%7Ezkolter/course/linalg/linalg_notes.pdf) written by [Zico Kolter](https://zicokolter.com).
-         - [**Notes on Linear Algebra**](https://webspace.maths.qmul.ac.uk/p.j.cameron/notes/linalg.pdf) written by [Peter J. Cameron](https://cameroncounts.github.io/web).
-         - [**MATH 233 - Linear Algebra I Lecture Notes**](https://www.geneseo.edu/~aguilar/public/assets/courses/233/main_notes.pdf) written by [Cesar O. Aguilar](https://www.geneseo.edu/~aguilar/).
+         - [**Linear Algebra Review and Reference**](https://www.cs.cmu.edu/%7Ezkolter/course/linalg/linalg_notes.pdf) written by [*Zico Kolter*](https://zicokolter.com).
+         - [**Notes on Linear Algebra**](https://webspace.maths.qmul.ac.uk/p.j.cameron/notes/linalg.pdf) written by [*Peter J. Cameron*](https://cameroncounts.github.io/web).
+         - [**MATH 233 - Linear Algebra I Lecture Notes**](https://www.geneseo.edu/~aguilar/public/assets/courses/233/main_notes.pdf) written by [*Cesar O. Aguilar*](https://www.geneseo.edu/~aguilar/).
       - 📈 **Calculus**: Derivatives, gradients, partial derivatives, chain rule (for backpropagation).
-         - [**Lecture notes on advanced gradient descent**](https://www.lamsade.dauphine.fr/~croyer/ensdocs/GD/LectureNotesOML-GD.pdf) written by [Cl´ement W. Royer](https://scholar.google.fr/citations?user=nmRlYWwAAAAJ&hl=en).
-         - [**MATH 221 –  CALCULUS LECTURE NOTES VERSION 2.0**](https://people.math.wisc.edu/~angenent/Free-Lecture-Notes/free221.pdf) written by [Sigurd Angenent](https://people.math.wisc.edu/~angenent).
-         - [**Calculus**](https://ocw.mit.edu/ans7870/resources/Strang/Edited/Calculus/Calculus.pdf) written by [Gilbert Strang](https://math.mit.edu/~gs).
+         - [**Lecture notes on advanced gradient descent**](https://www.lamsade.dauphine.fr/~croyer/ensdocs/GD/LectureNotesOML-GD.pdf) written by [*Cl´ement W. Royer*](https://scholar.google.fr/citations?user=nmRlYWwAAAAJ&hl=en).
+         - [**MATH 221 –  CALCULUS LECTURE NOTES VERSION 2.0**](https://people.math.wisc.edu/~angenent/Free-Lecture-Notes/free221.pdf) written by [*Sigurd Angenent*](https://people.math.wisc.edu/~angenent).
+         - [**Calculus**](https://ocw.mit.edu/ans7870/resources/Strang/Edited/Calculus/Calculus.pdf) written by [*Gilbert Strang*](https://math.mit.edu/~gs).
       - 🎲 **Probability & Statistics**: Probability distributions, mean/variance, etc.
-         - [**MATH1024: Introduction to Probability and Statistics**](https://www.sujitsahu.com/teach/2020_math1024.pdf) written by [Sujit Sahu](https://www.southampton.ac.uk/people/5wynjr/professor-sujit-sahu)
+         - [**MATH1024: Introduction to Probability and Statistics**](https://www.sujitsahu.com/teach/2020_math1024.pdf) written by [*Sujit Sahu*](https://www.southampton.ac.uk/people/5wynjr/professor-sujit-sahu)
 
 # ⚙️ Setup
 This project was developed using Python **v3.12.3**. If you encounter issues running the specified version of dependencies, consider using this specific Python version.
