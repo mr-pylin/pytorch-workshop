@@ -18,25 +18,23 @@ A comprehensive **PyTorch** workshop covering the fundamentals and advanced tech
 Learn about PyTorch tensors, the foundational data structure, and how to manipulate them.
 1. [**Gradient and Autograd**](./codes/02-gradient.ipynb)  
 Understand gradients, automatic differentiation, and how PyTorch handles backpropagation with `autograd`.
-1. [**Perceptron and AdaLiNe**](./codes/03-perceptron.ipynb)  
+1. [**Perceptron and AdaLiNe**](./codes/03-simple-neurons.ipynb)  
 Explore the basics of the simplest neural network model (perceptron) and Adaptive Linear Neuron (Adaline).
-1. [**Linear Regression**](./codes/04-linear-regression.ipynb)  
-Implement linear regression using PyTorch, including model training and prediction.
-1. [**Logistic Regression**](./codes/05-logistic-regression.ipynb)  
-Learn how to build a logistic regression model for binary classification tasks.
-1. [**Multi-Layer Perceptrons**](./codes/06-multi-layer-perceptrons.ipynb)  
+1. [**Regression Models**](./codes/04-regression-model.ipynb)  
+Implement linear and logistic regression using PyTorch, including model training and prediction.
+1. [**Multi-Layer Perceptrons**](./codes/05-multi-layer-perceptrons.ipynb)  
 Implement and explore multi-layer perceptron (MLP) for more complex tasks.
-1. [**Radial Basis Function Networks**](./codes/07-radial-basis-function-networks.ipynb)  
+1. [**Radial Basis Function Networks**](./codes/06-radial-basis-function-networks.ipynb)  
 Implement and explore Radial Basis Function (RBF) networks and how they differ from traditional neural networks.
-1. [**Convolutional Neural Networks**](./codes/08-convolutional-neural-networks.ipynb)  
+1. [**Convolutional Neural Networks**](./codes/07-convolutional-neural-networks.ipynb)  
 Explore concepts around convolutional neural networks (CNNs).
-1. [**Feature Extraction**](./codes/09-feature-extraction.ipynb)  
+1. [**Feature Extraction**](./codes/08-feature-extraction.ipynb)  
 Learn how to extract features from pre-trained models for downstream tasks.
-1. [**Transfer Learning**](./codes/10-transfer-learning.ipynb)  
+1. [**Transfer Learning**](./codes/09-transfer-learning.ipynb)  
 Apply transfer learning by using pre-trained models for a new tasks.
-1. [**Fine-Tuning Models**](./codes/11-fine-tuning.ipynb)  
+1. [**Fine-Tuning Models**](./codes/10-fine-tuning.ipynb)  
 Understand how to fine-tune models by updating specific layers while freezing others.
-1. [**Recurrent Neural Networks**](./codes/12-recurrent-neural-networks.ipynb)  
+1. [**Recurrent Neural Networks**](./codes/11-recurrent-neural-networks.ipynb)  
 Explore concepts around recurrent neural networks (RNNs).
 
 ### Utilities
@@ -55,9 +53,9 @@ Understand how to work with datasets in PyTorch using `torch.utils.data.Dataset`
 Understand the difference between parameters and hyperparameters in neural networks.
 - [**Loss Functions**](./codes/utils/loss-functions.ipynb)  
 Dive into common loss functions used in neural networks, including MSE, Cross-Entropy, and others.
-- [**Normalizations**](./codes/utils/normalizations.ipynb)  
+- [**Network Normalizations**](./codes/utils/network-normalizations.ipynb)  
 Understand normalization techniques such as Batch Normalization and Layer Normalization.
-- [**Data Transforms**](./codes/utils/transforms.ipynb)  
+- [**Vision Transforms**](./codes/utils/vision-transforms.ipynb)  
 Learn to apply transforms like data augmentation on datasets using `torchvision.transforms.v2`.
 - [**Word Embeddings**](./codes/utils/word-embeddings.ipynb)  
 Explore different word embedding techniques and their applications in natural language processing.
