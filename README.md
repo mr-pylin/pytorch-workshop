@@ -12,7 +12,7 @@ A comprehensive **PyTorch** workshop covering the fundamentals and advanced tech
 
 ## 📖 Table of Contents
 
-### Main Notebooks
+### 📖 Main Notebooks
 
 1. [**Introduction to Tensors**](./codes/01-tensor.ipynb)  
 Learn about PyTorch tensors, the foundational data structure, and how to manipulate them.
@@ -37,7 +37,7 @@ Understand how to fine-tune models by updating specific layers while freezing ot
 1. [**Recurrent Neural Networks**](./codes/11-recurrent-neural-networks.ipynb)  
 Explore concepts around recurrent neural networks (RNNs).
 
-### Utilities
+### 📖 Utilities
 
 A collection of concepts and tools utilized in the main notebooks for training models, ...  
 
@@ -53,14 +53,14 @@ Understand how to work with datasets in PyTorch using `torch.utils.data.Dataset`
 Understand the difference between parameters and hyperparameters in neural networks.
 - [**Loss Functions**](./codes/utils/loss-functions.ipynb)  
 Dive into common loss functions used in neural networks, including MSE, Cross-Entropy, and others.
-- [**Network Normalizations**](./codes/utils/network-normalizations.ipynb)  
+- [**Normalization Techniques**](./codes/utils/normalizations.ipynb)  
 Understand normalization techniques such as Batch Normalization and Layer Normalization.
 - [**Vision Transforms**](./codes/utils/vision-transforms.ipynb)  
 Learn to apply transforms like data augmentation on datasets using `torchvision.transforms.v2`.
 - [**Word Embeddings**](./codes/utils/word-embeddings.ipynb)  
 Explore different word embedding techniques and their applications in natural language processing.
 
-### Models
+### 📖 Models
 
 - **CNN Architectures**
   1. [**LeNet-5 Architecture**](./codes/models/CNN/01-lenet5-architecture.ipynb)
@@ -71,13 +71,13 @@ Explore different word embedding techniques and their applications in natural la
   1. [**DenseNet Architecture**](./codes/models/CNN/06-densenet-architecture.ipynb)
   1. [**EfficientNet Architecture**](./codes/models/CNN/07-efficientnet-architecture.ipynb)
 
-### Projects
+### 📖 Projects
 
 1. [**Multi-Layer Perceptrons**](./codes/projects/01-multi-layer-perceptrons.ipynb)  
 A comprehensive example to building, training, and deploying a MLP, from data preprocessing to prediction.
-2. [**Convolutional Neural Networks**](./codes/projects/02-convolutional-neural-networks.ipynb)  
+1. [**Convolutional Neural Networks**](./codes/projects/02-convolutional-neural-networks.ipynb)  
 A comprehensive example to building, training, and deploying a CNN, from data preprocessing to prediction.
-3. [**Word2Vec Word Embedding**](./codes/projects/04-word2vec-word-embedding.ipynb)  
+1. [**Word2Vec Word Embedding**](./codes/projects/04-word2vec-word-embedding.ipynb)  
 An in-depth guide to implementing the Word2Vec algorithm for word embeddings in natural language processing.
 
 ## 📋 Prerequisites
@@ -138,7 +138,7 @@ pip install -r requirements.txt
 
 ✍️ **Notes**:  
 
-- The **table of contents** embedded in the notebooks is not fully functional on **GitHub**!
+- The **table of contents** embedded in the **notebooks** is not fully functional on **GitHub**!
 - To navigate the **table of contents** effectively, open the notebooks **locally** or view them via [**nbviewer**](https://nbviewer.org/github/mr-pylin/pytorch-workshop) for a better experience.
 
 ## 🔗 Useful Links
