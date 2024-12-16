@@ -136,7 +136,10 @@ pip install -r requirements.txt
 1. Open `.ipynb` files using [**Jupyter extension**](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) integrated with **VS Code**.
 1. Allow **VS Code** to install any **recommended dependencies** for working with Jupyter Notebooks.
 
-✍️ **Note**: Jupyter is integrated with both **VS Code** & **[Google Colab](https://colab.research.google.com/)**.
+✍️ **Notes**:  
+
+- The **table of contents** embedded in the notebooks is not fully functional on **GitHub**!
+- To navigate the **table of contents** effectively, open the notebooks **locally** or view them via [**nbviewer**](https://nbviewer.org/github/mr-pylin/pytorch-workshop) for a better experience.
 
 ## 🔗 Useful Links
 
