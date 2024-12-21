@@ -73,12 +73,10 @@ Explore different word embedding techniques and their applications in natural la
 
 ### 📖 Projects
 
-1. [**Multi-Layer Perceptrons**](./codes/projects/01-multi-layer-perceptrons.ipynb)  
-A comprehensive example to building, training, and deploying a MLP, from data preprocessing to prediction.
-1. [**Convolutional Neural Networks**](./codes/projects/02-convolutional-neural-networks.ipynb)  
-A comprehensive example to building, training, and deploying a CNN, from data preprocessing to prediction.
-1. [**Word2Vec Word Embedding**](./codes/projects/04-word2vec-word-embedding.ipynb)  
-An in-depth guide to implementing the Word2Vec algorithm for word embeddings in natural language processing.
+Implementation details are provided in the **README** files within the parent directories.
+
+1. [**MNIST Classification**](./codes/projects/mnist-classification/)  
+    - [**Implementation 1**](./codes/projects/mnist-classification/implementation-1/)
 
 ## 📋 Prerequisites
 
