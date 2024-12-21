@@ -1,0 +1,11 @@
+,pred_blues,pred_classical,pred_country,pred_disco,pred_hiphop,pred_jazz,pred_metal,pred_pop,pred_reggae,pred_rock
+true_blues    ,1,0,4,2,1,1,0,0,1,0
+true_classical,0,10,0,0,0,0,0,0,0,0
+true_country  ,0,0,7,0,0,0,2,1,0,0
+true_disco    ,1,0,3,0,2,0,2,0,2,0
+true_hiphop   ,0,0,1,0,2,0,2,0,5,0
+true_jazz     ,0,2,0,0,0,6,0,0,2,0
+true_metal    ,1,0,0,0,1,0,7,0,0,1
+true_pop      ,0,0,0,0,2,0,1,7,0,0
+true_reggae   ,0,2,2,0,0,0,2,0,3,1
+true_rock     ,0,0,3,0,0,0,3,0,1,3
