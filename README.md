@@ -77,6 +77,8 @@ Implementation details are provided in the **README** files within the parent di
 
 1. [**MNIST Classification**](./codes/projects/mnist-classification/)  
     - [**Implementation 1**](./codes/projects/mnist-classification/implementation-1/)
+1. [**CIFAR-10 Classification**](./codes/projects/cifar-classification/cifar-10/)  
+    - [**Implementation 1**](./codes/projects/cifar-classification/cifar-10/implementation-1/)
 
 ## 📋 Prerequisites
 
