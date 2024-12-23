@@ -63,13 +63,14 @@ Explore different word embedding techniques and their applications in natural la
 ### 📖 Models
 
 - **CNN Architectures**
-  1. [**LeNet-5 Architecture**](./codes/models/CNN/01-lenet5-architecture.ipynb)
-  1. [**AlexNet Architecture**](./codes/models/CNN/02-alexnet-architecture.ipynb)
-  1. [**VGGNet Architecture**](./codes/models/CNN/03-vggnet-architecture.ipynb)
-  1. [**GoogLeNet Architecture**](./codes/models/CNN/04-googlenet-architecture.ipynb)
-  1. [**ResNet Architecture**](./codes/models/CNN/05-resnet-architecture.ipynb)
-  1. [**DenseNet Architecture**](./codes/models/CNN/06-densenet-architecture.ipynb)
-  1. [**EfficientNet Architecture**](./codes/models/CNN/07-efficientnet-architecture.ipynb)
+  1. [**LeNet-5 Architecture**](./codes/models/cnn/lenet5-architecture.ipynb)
+  1. [**AlexNet Architecture**](./codes/models/cnn/alexnet-architecture.ipynb)
+  1. [**VGGNet Architecture**](./codes/models/cnn/vggnet-architecture.ipynb)
+  1. [**GoogLeNet Architecture**](./codes/models/cnn/googlenet-architecture.ipynb)
+  1. [**Xception Architecture**](./codes/models/cnn/xception-architecture.ipynb)
+  1. [**ResNet Architecture**](./codes/models/cnn/resnet-architecture.ipynb)
+  1. [**DenseNet Architecture**](./codes/models/cnn/densenet-architecture.ipynb)
+  1. [**EfficientNet Architecture**](./codes/models/cnn/efficientnet-architecture.ipynb)
 
 ### 📖 Projects
 
