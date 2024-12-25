@@ -6,13 +6,9 @@
 ## 📥 Dataset
 
 ### CIFAR-10
+
 - The **CIFAR-10** dataset consists of **60,000 color images** of size **32x32 pixels**, categorized into **10 classes**: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck.
 - For **detailed information** about the dataset, including the **structure**, **file descriptions** (e.g., training and test sets), **download link**, and more, please refer to [**CIFAR-10 Dataset README**](https://github.com/mr-pylin/datasets/tree/main/data/computer-vision/image-classification/cifar-10/README.md).
-
-### CIFAR-100
-- The **CIFAR-100** dataset is an extension of **CIFAR-10** with **100 classes**, each containing **600 color images** of size **32x32 pixels**.
-- Classes are organized hierarchically into **20 superclasses**, with 5 subclasses under each superclass.
-- For **detailed information**, refer to the [**CIFAR-100 Dataset README**](https://github.com/mr-pylin/datasets/tree/main/data/computer-vision/image-classification/cifar-100/README.md).
 
 ## 📝 Notebooks
 

@@ -14,72 +14,72 @@ A comprehensive **PyTorch** workshop covering the fundamentals and advanced tech
 
 ### 📖 Main Notebooks
 
-1. [**Introduction to Tensors**](./codes/01-tensor.ipynb)  
+1. [**Introduction to Tensors**](./code/01-tensor.ipynb)  
 Learn about PyTorch tensors, the foundational data structure, and how to manipulate them.
-1. [**Gradient and Autograd**](./codes/02-gradient.ipynb)  
+1. [**Gradient and Autograd**](./code/02-gradient.ipynb)  
 Understand gradients, automatic differentiation, and how PyTorch handles backpropagation with `autograd`.
-1. [**Perceptron and AdaLiNe**](./codes/03-simple-neurons.ipynb)  
+1. [**Perceptron and AdaLiNe**](./code/03-simple-neurons.ipynb)  
 Explore the basics of the simplest neural network model (perceptron) and Adaptive Linear Neuron (Adaline).
-1. [**Regression Models**](./codes/04-regression-model.ipynb)  
+1. [**Regression Models**](./code/04-regression-model.ipynb)  
 Implement linear and logistic regression using PyTorch, including model training and prediction.
-1. [**Multi-Layer Perceptrons**](./codes/05-multi-layer-perceptrons.ipynb)  
+1. [**Multi-Layer Perceptrons**](./code/05-multi-layer-perceptrons.ipynb)  
 Implement and explore multi-layer perceptron (MLP) for more complex tasks.
-1. [**Radial Basis Function Networks**](./codes/06-radial-basis-function-networks.ipynb)  
+1. [**Radial Basis Function Networks**](./code/06-radial-basis-function-networks.ipynb)  
 Implement and explore Radial Basis Function (RBF) networks and how they differ from traditional neural networks.
-1. [**Convolutional Neural Networks**](./codes/07-convolutional-neural-networks.ipynb)  
+1. [**Convolutional Neural Networks**](./code/07-convolutional-neural-networks.ipynb)  
 Explore concepts around convolutional neural networks (CNNs).
-1. [**Feature Extraction**](./codes/08-feature-extraction.ipynb)  
+1. [**Feature Extraction**](./code/08-feature-extraction.ipynb)  
 Learn how to extract features from pre-trained models for downstream tasks.
-1. [**Transfer Learning**](./codes/09-transfer-learning.ipynb)  
+1. [**Transfer Learning**](./code/09-transfer-learning.ipynb)  
 Apply transfer learning by using pre-trained models for a new tasks.
-1. [**Fine-Tuning Models**](./codes/10-fine-tuning.ipynb)  
+1. [**Fine-Tuning Models**](./code/10-fine-tuning.ipynb)  
 Understand how to fine-tune models by updating specific layers while freezing others.
-1. [**Recurrent Neural Networks**](./codes/11-recurrent-neural-networks.ipynb)  
+1. [**Recurrent Neural Networks**](./code/11-recurrent-neural-networks.ipynb)  
 Explore concepts around recurrent neural networks (RNNs).
 
 ### 📖 Utilities
 
 A collection of concepts and tools utilized in the main notebooks for training models, ...  
 
-- [**Activation Functions**](./codes/utils/activation-functions.ipynb)  
+- [**Activation Functions**](./code/utils/activation-functions.ipynb)  
 Study different activation functions (ReLU, Sigmoid, Tanh, ...) and their roles in neural networks.
-- [**Checkpoints**](./codes/utils/checkpoints.ipynb)  
+- [**Checkpoints**](./code/utils/checkpoints.ipynb)  
 Learn how to save and load model checkpoints to resume training or for inference.
-- [**Custom Implementations**](./codes/utils/custom-classes.ipynb)  
+- [**Custom Implementations**](./code/utils/custom-classes.ipynb)  
 Learn how to define custom models, dataset, loss function, ... using PyTorch's class-based approach.
-- [**Working with Datasets**](./codes/utils/dataset-dataloader.ipynb)  
+- [**Working with Datasets**](./code/utils/dataset-dataloader.ipynb)  
 Understand how to work with datasets in PyTorch using `torch.utils.data.Dataset` and `torch.utils.data.DataLoader`.
-- [**Parameters vs. Hyperparameters**](./codes/utils/hyperparameters.ipynb)  
+- [**Parameters vs. Hyperparameters**](./code/utils/hyperparameters.ipynb)  
 Understand the difference between parameters and hyperparameters in neural networks.
-- [**Loss Functions**](./codes/utils/loss-functions.ipynb)  
+- [**Loss Functions**](./code/utils/loss-functions.ipynb)  
 Dive into common loss functions used in neural networks, including MSE, Cross-Entropy, and others.
-- [**Normalization Techniques**](./codes/utils/normalizations.ipynb)  
+- [**Normalization Techniques**](./code/utils/normalizations.ipynb)  
 Understand normalization techniques such as Batch Normalization and Layer Normalization.
-- [**Vision Transforms**](./codes/utils/vision-transforms.ipynb)  
+- [**Vision Transforms**](./code/utils/vision-transforms.ipynb)  
 Learn to apply transforms like data augmentation on datasets using `torchvision.transforms.v2`.
-- [**Word Embeddings**](./codes/utils/word-embeddings.ipynb)  
+- [**Word Embeddings**](./code/utils/word-embeddings.ipynb)  
 Explore different word embedding techniques and their applications in natural language processing.
 
 ### 📖 Models
 
 - **CNN Architectures**
-  1. [**LeNet-5 Architecture**](./codes/models/cnn/lenet5-architecture.ipynb)
-  1. [**AlexNet Architecture**](./codes/models/cnn/alexnet-architecture.ipynb)
-  1. [**VGGNet Architecture**](./codes/models/cnn/vggnet-architecture.ipynb)
-  1. [**GoogLeNet Architecture**](./codes/models/cnn/googlenet-architecture.ipynb)
-  1. [**Xception Architecture**](./codes/models/cnn/xception-architecture.ipynb)
-  1. [**ResNet Architecture**](./codes/models/cnn/resnet-architecture.ipynb)
-  1. [**DenseNet Architecture**](./codes/models/cnn/densenet-architecture.ipynb)
-  1. [**EfficientNet Architecture**](./codes/models/cnn/efficientnet-architecture.ipynb)
+  1. [**LeNet-5 Architecture**](./code/models/cnn/lenet5-architecture.ipynb)
+  1. [**AlexNet Architecture**](./code/models/cnn/alexnet-architecture.ipynb)
+  1. [**VGGNet Architecture**](./code/models/cnn/vggnet-architecture.ipynb)
+  1. [**GoogLeNet Architecture**](./code/models/cnn/googlenet-architecture.ipynb)
+  1. [**Xception Architecture**](./code/models/cnn/xception-architecture.ipynb)
+  1. [**ResNet Architecture**](./code/models/cnn/resnet-architecture.ipynb)
+  1. [**DenseNet Architecture**](./code/models/cnn/densenet-architecture.ipynb)
+  1. [**EfficientNet Architecture**](./code/models/cnn/efficientnet-architecture.ipynb)
 
 ### 📖 Projects
 
 Implementation details are provided in the **README** files within the parent directories.
 
-1. [**MNIST Classification**](./codes/projects/mnist-classification/)  
-    - [**Implementation 1**](./codes/projects/mnist-classification/implementation-1/)
-1. [**CIFAR-10 Classification**](./codes/projects/cifar-classification/cifar-10/)  
-    - [**Implementation 1**](./codes/projects/cifar-classification/cifar-10/implementation-1/)
+1. [**MNIST Classification**](./code/projects/mnist-classification/)  
+    - [**Implementation 1**](./code/projects/mnist-classification/implementation-1/)
+1. [**CIFAR-10 Classification**](./code/projects/cifar-classification/cifar-10/)  
+    - [**Implementation 1**](./code/projects/cifar-classification/cifar-10/implementation-1/)
 
 ## 📋 Prerequisites
 
