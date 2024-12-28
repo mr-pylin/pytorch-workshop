@@ -1,2 +1,2 @@
 test_loss,test_top_1_acc,test_top_2_acc,test_top_3_acc
-0.87777,0.693,0.855,0.921
+0.79336,0.734,0.882,0.935

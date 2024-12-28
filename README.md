@@ -104,26 +104,46 @@ Implementation details are provided in the **README** files within the parent di
 
 ## ⚙️ Setup
 
-This project was developed using Python **v3.12.3**. If you encounter issues running the specified version of dependencies, consider using this specific Python version.
+This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.12.8**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
 
 ### 📝 List of Dependencies
 
-[![datasets](https://img.shields.io/badge/datasets-3.1.0-blue)](https://pypi.org/project/datasets/3.1.0/)
-[![matplotlib](https://img.shields.io/badge/matplotlib-3.9.1-green)](https://pypi.org/project/matplotlib/3.9.1/)
-[![numpy](https://img.shields.io/badge/numpy-1.26.4-orange)](https://pypi.org/project/numpy/1.26.4/)
-[![pandas](https://img.shields.io/badge/pandas-2.2.2-yellow)](https://pypi.org/project/pandas/2.2.2/)
+[![datasets](https://img.shields.io/badge/datasets-3.2.0-blue)](https://pypi.org/project/datasets/3.2.0/)
+[![ipykernel](https://img.shields.io/badge/ipykernel-6.29.5-ff69b4)](https://pypi.org/project/ipykernel/6.29.5/)
+[![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.5-ff6347)](https://pypi.org/project/ipywidgets/8.1.5/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-3.10.0-green)](https://pypi.org/project/matplotlib/3.10.0/)
+[![numpy](https://img.shields.io/badge/numpy-2.2.1-orange)](https://pypi.org/project/numpy/2.2.1/)
+[![pandas](https://img.shields.io/badge/pandas-2.2.3-yellow)](https://pypi.org/project/pandas/2.2.3/)
 [![PySoundFile](https://img.shields.io/badge/PySoundFile-0.9.0.post1-red)](https://pypi.org/project/PySoundFile/0.9.0.post1/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.5.1-blue)](https://pypi.org/project/scikit-learn/1.5.1/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6.0-blue)](https://pypi.org/project/scikit-learn/1.6.0/)
 [![seaborn](https://img.shields.io/badge/seaborn-0.13.2-lightblue)](https://pypi.org/project/seaborn/0.13.2/)
-[![torch](https://img.shields.io/badge/torch-2.4.0%2Bcu124-yellow)](https://pytorch.org/)
-[![torchaudio](https://img.shields.io/badge/torchaudio-2.4.0%2Bcu124-lightgreen)](https://pytorch.org/)
-[![torchvision](https://img.shields.io/badge/torchvision-0.19.0%2Bcu124-purple)](https://pytorch.org/)
+[![torch](https://img.shields.io/badge/torch-2.5.1%2Bcu124-yellow)](https://pytorch.org/)
+[![torchaudio](https://img.shields.io/badge/torchaudio-2.5.1%2Bcu124-lightgreen)](https://pytorch.org/)
+[![torchvision](https://img.shields.io/badge/torchvision-0.20.1%2Bcu124-purple)](https://pytorch.org/)
 [![torchinfo](https://img.shields.io/badge/torchinfo-1.8.0-blueviolet)](https://pypi.org/project/torchinfo/1.8.0/)
-[![torchmetrics](https://img.shields.io/badge/torchmetrics-1.4.1-lightgray)](https://pypi.org/project/torchmetrics/1.4.1/)
+[![torchmetrics](https://img.shields.io/badge/torchmetrics-1.6.1-lightgray)](https://pypi.org/project/torchmetrics/1.6.1/)
 
 ### 📦 Install Dependencies
 
-You can install all dependencies listed in [**requirements.txt**](./requirements.txt) using [**pip**](https://pip.pypa.io/en/stable/installation/):
+#### 📦 Method 1: Poetry (Recommended)
+
+Use [**Poetry**](https://python-poetry.org/) for dependency management. It handles dependencies, virtual environments, and locking versions more efficiently than pip. To install dependencies using Poetry:
+
+- **Option 1 [Recommended]**: Install exact dependency versions specified in [**poetry.lock**](./poetry.lock) for consistent environments:
+
+  ```bash
+  poetry install
+  ```
+
+- **Option 2**: Install the latest compatible dependency versions from [**pyproject.toml**](./pyproject.toml) and regenerate the [**poetry.lock**](./poetry.lock) file:
+
+  ```bash
+  poetry install --no-root
+  ```
+
+#### 📦 Method 2: PIP
+
+Install all dependencies listed in [**requirements.txt**](./requirements.txt) using [**pip**](https://pip.pypa.io/en/stable/installation/):
 
 ```bash
 pip install -r requirements.txt
@@ -131,16 +151,17 @@ pip install -r requirements.txt
 
 ### 🛠️ Usage Instructions
 
-1. Open the root folder with [**VS Code**](https://code.visualstudio.com/):
-    - **Windows/Linux**: `Ctrl + K` followed by `Ctrl + O`
-    - **macOS**: `Cmd + K` followed by `Cmd + O`
-1. Open `.ipynb` files using [**Jupyter extension**](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) integrated with **VS Code**.
-1. Allow **VS Code** to install any **recommended dependencies** for working with Jupyter Notebooks.
+1. Open the root folder with [**VS Code**](https://code.visualstudio.com/) (`Ctrl/Cmd + K` followed by `Ctrl/Cmd + O`).
+1. Open `.ipynb` files using the [**Jupyter extension**](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) integrated with **VS Code**.
+1. Select the correct Python kernel and virtual environment where the dependencies were installed.
+1. Allow **VS Code** to install any recommended dependencies for working with Jupyter Notebooks.
 
 ✍️ **Notes**:  
 
-- The **table of contents** embedded in the **notebooks** is not fully functional on **GitHub**!
-- To navigate the **table of contents** effectively, open the notebooks **locally** or view them via [**nbviewer**](https://nbviewer.org/github/mr-pylin/pytorch-workshop) for a better experience.
+- It is **highly recommended** to stick with the exact dependency versions specified in [**poetry.lock**](./poetry.lock) or [**requirements.txt**](./requirements.txt) rather than using the latest package versions. The repository has been **tested** on these versions to ensure **compatibility** and **stability**.
+- This repository is **actively maintained**, and dependencies are **updated regularly** to the latest **stable** versions.
+- The **table of contents** embedded in the **notebooks** may not function correctly on **GitHub**.
+- For an improved experience, open the notebooks **locally** or view them via [**nbviewer**](https://nbviewer.org/github/mr-pylin/pytorch-workshop).
 
 ## 🔗 Useful Links
 
