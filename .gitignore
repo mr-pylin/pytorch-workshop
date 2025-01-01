@@ -168,7 +168,7 @@ dataset/
 datasets/
 
 # temporary files
-assets/embeddings/
+assets/checkpoints/
 
 # vscode
 .vscode/
