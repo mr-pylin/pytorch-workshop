@@ -1,12 +1,12 @@
 # 🔥 PyTorch Workshop
 
-[![License](https://img.shields.io/github/license/mr-pylin/pytorch-workshop)](https://github.com/mr-pylin/pytorch-workshop/blob/main/LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.12.3-blue?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3123/)
+[![License](https://img.shields.io/github/license/mr-pylin/pytorch-workshop?color=blue)](https://github.com/mr-pylin/pytorch-workshop/blob/main/LICENSE)
+[![Python Version](https://img.shields.io/badge/Python-3.12.8-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3128/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/1faf9d4577d3406a9ac65a4cb8d3d4f1)](https://app.codacy.com/gh/mr-pylin/pytorch-workshop/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-![Repo Size](https://img.shields.io/github/repo-size/mr-pylin/pytorch-workshop)
-![Last Updated](https://img.shields.io/github/last-commit/mr-pylin/pytorch-workshop)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/mr-pylin/pytorch-workshop/pulls)
+[![Code Style](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/psf/black)
+![Repo Size](https://img.shields.io/github/repo-size/mr-pylin/pytorch-workshop?color=lightblue)
+![Last Updated](https://img.shields.io/github/last-commit/mr-pylin/pytorch-workshop?color=orange)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?color=brightgreen)](https://github.com/mr-pylin/pytorch-workshop/pulls)
 
 A comprehensive **PyTorch** workshop covering the fundamentals and advanced techniques of deep learning.
 
@@ -108,18 +108,18 @@ This project requires Python **v3.10** or higher. It was developed and tested us
 
 ### 📝 List of Dependencies
 
-[![datasets](https://img.shields.io/badge/datasets-3.2.0-blue)](https://pypi.org/project/datasets/3.2.0/)
+[![datasets](https://img.shields.io/badge/datasets-3.2.0-purple)](https://pypi.org/project/datasets/3.2.0/)
 [![ipykernel](https://img.shields.io/badge/ipykernel-6.29.5-ff69b4)](https://pypi.org/project/ipykernel/6.29.5/)
 [![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.5-ff6347)](https://pypi.org/project/ipywidgets/8.1.5/)
 [![matplotlib](https://img.shields.io/badge/matplotlib-3.10.0-green)](https://pypi.org/project/matplotlib/3.10.0/)
 [![numpy](https://img.shields.io/badge/numpy-2.2.1-orange)](https://pypi.org/project/numpy/2.2.1/)
 [![pandas](https://img.shields.io/badge/pandas-2.2.3-yellow)](https://pypi.org/project/pandas/2.2.3/)
 [![PySoundFile](https://img.shields.io/badge/PySoundFile-0.9.0.post1-red)](https://pypi.org/project/PySoundFile/0.9.0.post1/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6.0-blue)](https://pypi.org/project/scikit-learn/1.6.0/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6.0-darkblue)](https://pypi.org/project/scikit-learn/1.6.0/)
 [![seaborn](https://img.shields.io/badge/seaborn-0.13.2-lightblue)](https://pypi.org/project/seaborn/0.13.2/)
-[![torch](https://img.shields.io/badge/torch-2.5.1%2Bcu124-yellow)](https://pytorch.org/)
+[![torch](https://img.shields.io/badge/torch-2.5.1%2Bcu124-gold)](https://pytorch.org/)
 [![torchaudio](https://img.shields.io/badge/torchaudio-2.5.1%2Bcu124-lightgreen)](https://pytorch.org/)
-[![torchvision](https://img.shields.io/badge/torchvision-0.20.1%2Bcu124-purple)](https://pytorch.org/)
+[![torchvision](https://img.shields.io/badge/torchvision-0.20.1%2Bcu124-teal)](https://pytorch.org/)
 [![torchinfo](https://img.shields.io/badge/torchinfo-1.8.0-blueviolet)](https://pypi.org/project/torchinfo/1.8.0/)
 [![torchmetrics](https://img.shields.io/badge/torchmetrics-1.6.1-lightgray)](https://pypi.org/project/torchmetrics/1.6.1/)
 
@@ -141,13 +141,47 @@ Use [**Poetry**](https://python-poetry.org/) for dependency management. It handl
   poetry install --no-root
   ```
 
-#### 📦 Method 2: PIP
+#### 📦 Method 2: Pip
 
 Install all dependencies listed in [**requirements.txt**](./requirements.txt) using [**pip**](https://pip.pypa.io/en/stable/installation/):
 
 ```bash
 pip install -r requirements.txt
 ```
+
+#### 🌐 Connection Issues
+
+If you encounter connection issues during installation, you can try extending the **timeout** and increasing the number of **retries** with the following:
+
+- **For Poetry**: Use the following command to set the retries and timeout directly in the terminal **before running the install**:
+  - **Windows**:
+    - **PowerShell**:
+
+      ```bash
+      $env:POETRY_HTTP_TIMEOUT=300
+      $env:POETRY_HTTP_RETRIES=10
+      ```
+
+    - **Command Prompt**:
+
+      ```bash
+      set POETRY_HTTP_TIMEOUT=300
+      set POETRY_HTTP_RETRIES=10
+      ```
+
+  - **Linux/macOS**:
+    - **Terminal**:
+
+      ```bash
+      export POETRY_HTTP_TIMEOUT=300
+      export POETRY_HTTP_RETRIES=10
+      ```
+
+- **For Pip**: Use the `--retries` and `--timeout` flags directly in your pip command:
+
+  ```bash
+  pip install -r requirements.txt --retries 10 --timeout 300
+  ```
 
 ### 🛠️ Usage Instructions
 
