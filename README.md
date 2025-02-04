@@ -41,23 +41,25 @@ Explore concepts around recurrent neural networks (RNNs).
 
 A collection of concepts and tools utilized in the main notebooks for training models, ...  
 
-- [**Activation Functions**](./code/utils/activation-functions.ipynb)  
+- [**Activation Functions**](./code/utils/activation.ipynb)  
 Study different activation functions (ReLU, Sigmoid, Tanh, ...) and their roles in neural networks.
-- [**Checkpoints**](./code/utils/checkpoints.ipynb)  
+- [**Checkpoints**](./code/utils/checkpoint.ipynb)  
 Learn how to save and load model checkpoints to resume training or for inference.
-- [**Custom Implementations**](./code/utils/custom-classes.ipynb)  
-Learn how to define custom models, dataset, loss function, ... using PyTorch's class-based approach.
-- [**Working with Datasets**](./code/utils/dataset-dataloader.ipynb)  
+- [**Working with Datasets**](./code/utils/dataset.ipynb)  
 Understand how to work with datasets in PyTorch using `torch.utils.data.Dataset` and `torch.utils.data.DataLoader`.
-- [**Parameters vs. Hyperparameters**](./code/utils/hyperparameters.ipynb)  
+- [**Parameters vs. Hyperparameters**](./code/utils/hyperparameter.ipynb)  
 Understand the difference between parameters and hyperparameters in neural networks.
-- [**Loss Functions**](./code/utils/loss-functions.ipynb)  
+- [**Loss Functions**](./code/utils/loss.ipynb)  
 Dive into common loss functions used in neural networks, including MSE, Cross-Entropy, and others.
-- [**Normalization Techniques**](./code/utils/normalizations.ipynb)  
+- [**Model Creation**](./code/utils/model-creation.ipynb)  
+Study how to initialize built-in models architectures or create custom sequential/non-sequential models.
+- [**Normalization Techniques**](./code/utils/normalization.ipynb)  
 Understand normalization techniques such as Batch Normalization and Layer Normalization.
-- [**Vision Transforms**](./code/utils/vision-transforms.ipynb)  
+- [**Optimizers**](./code/utils/optimizer.ipynb)  
+Explore different built-in optimizers or how to create custom optimizers.
+- [**Vision Transforms**](./code/utils/vision-transform.ipynb)  
 Learn to apply transforms like data augmentation on datasets using `torchvision.transforms.v2`.
-- [**Word Embeddings**](./code/utils/word-embeddings.ipynb)  
+- [**Word Embeddings**](./code/utils/word-embedding.ipynb)  
 Explore different word embedding techniques and their applications in natural language processing.
 
 ### 📖 Models
