@@ -51,6 +51,8 @@ Understand how to work with datasets in PyTorch using `torch.utils.data.Dataset`
 Understand the difference between parameters and hyperparameters in neural networks.
 - [**Loss Functions**](./code/utils/loss.ipynb)  
 Dive into common loss functions used in neural networks, including MSE, Cross-Entropy, and others.
+- [**Metrics**](./code/utils/metric.ipynb)  
+Learn about evaluation metrics such as Accuracy, Precision, Recall, F1-Score, and custom metric implementations.
 - [**Model Creation**](./code/utils/model-creation.ipynb)  
 Study how to initialize built-in models architectures or create custom sequential/non-sequential models.
 - [**Normalization Techniques**](./code/utils/normalization.ipynb)  
