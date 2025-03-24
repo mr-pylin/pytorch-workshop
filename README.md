@@ -14,55 +14,33 @@ A comprehensive **PyTorch** workshop covering the fundamentals and advanced tech
 
 ### 📖 Main Notebooks
 
-1. [**Introduction to Tensors**](./code/01-tensor.ipynb)  
-Learn about PyTorch tensors, the foundational data structure, and how to manipulate them.
-1. [**Gradient and Autograd**](./code/02-gradient.ipynb)  
-Understand gradients, automatic differentiation, and how PyTorch handles backpropagation with `autograd`.
-1. [**Perceptron and AdaLiNe**](./code/03-simple-neurons.ipynb)  
-Explore the basics of the simplest neural network model (perceptron) and Adaptive Linear Neuron (Adaline).
-1. [**Regression Models**](./code/04-regression-model.ipynb)  
-Implement linear and logistic regression using PyTorch, including model training and prediction.
-1. [**Multi-Layer Perceptrons**](./code/05-multi-layer-perceptrons.ipynb)  
-Implement and explore multi-layer perceptron (MLP) for more complex tasks.
-1. [**Radial Basis Function Networks**](./code/06-radial-basis-function-networks.ipynb)  
-Implement and explore Radial Basis Function (RBF) networks and how they differ from traditional neural networks.
-1. [**Convolutional Neural Networks**](./code/07-convolutional-neural-networks.ipynb)  
-Explore concepts around convolutional neural networks (CNNs).
-1. [**Feature Extraction**](./code/08-feature-extraction.ipynb)  
-Learn how to extract features from pre-trained models for downstream tasks.
-1. [**Transfer Learning**](./code/09-transfer-learning.ipynb)  
-Apply transfer learning by using pre-trained models for a new tasks.
-1. [**Fine-Tuning Models**](./code/10-fine-tuning.ipynb)  
-Understand how to fine-tune models by updating specific layers while freezing others.
-1. [**Recurrent Neural Networks**](./code/11-recurrent-neural-networks.ipynb)  
-Explore concepts around recurrent neural networks (RNNs).
+1. [**Introduction to Tensors**](./code/01-tensor.ipynb)
+1. [**Gradient and Autograd**](./code/02-gradient.ipynb)
+1. [**Perceptron and AdaLiNe**](./code/03-simple-neurons.ipynb)
+1. [**Regression Models**](./code/04-regression-model.ipynb)
+1. [**Multi-Layer Perceptrons**](./code/05-multi-layer-perceptrons.ipynb)
+1. [**Radial Basis Function Networks**](./code/06-radial-basis-function-networks.ipynb)
+1. [**Convolutional Neural Networks**](./code/07-convolutional-neural-networks.ipynb)
+1. [**Feature Extraction**](./code/08-feature-extraction.ipynb)
+1. [**Transfer Learning**](./code/09-transfer-learning.ipynb)
+1. [**Fine-Tuning Models**](./code/10-fine-tuning.ipynb)
+1. [**Recurrent Neural Networks**](./code/11-recurrent-neural-networks.ipynb)
 
 ### 📖 Utilities
 
 A collection of concepts and tools utilized in the main notebooks for training models, ...  
 
-- [**Activation Functions**](./code/utils/activation.ipynb)  
-Study different activation functions (ReLU, Sigmoid, Tanh, ...) and their roles in neural networks.
-- [**Checkpoints**](./code/utils/checkpoint.ipynb)  
-Learn how to save and load model checkpoints to resume training or for inference.
-- [**Working with Datasets**](./code/utils/dataset.ipynb)  
-Understand how to work with datasets in PyTorch using `torch.utils.data.Dataset` and `torch.utils.data.DataLoader`.
-- [**Parameters vs. Hyperparameters**](./code/utils/hyperparameter.ipynb)  
-Understand the difference between parameters and hyperparameters in neural networks.
-- [**Loss Functions**](./code/utils/loss.ipynb)  
-Dive into common loss functions used in neural networks, including MSE, Cross-Entropy, and others.
-- [**Metrics**](./code/utils/metric.ipynb)  
-Learn about evaluation metrics such as Accuracy, Precision, Recall, F1-Score, and custom metric implementations.
-- [**Model Creation**](./code/utils/model-creation.ipynb)  
-Study how to initialize built-in models architectures or create custom sequential/non-sequential models.
-- [**Normalization Techniques**](./code/utils/normalization.ipynb)  
-Understand normalization techniques such as Batch Normalization and Layer Normalization.
-- [**Optimizers**](./code/utils/optimizer.ipynb)  
-Explore different built-in optimizers or how to create custom optimizers.
-- [**Vision Transforms**](./code/utils/vision-transform.ipynb)  
-Learn to apply transforms like data augmentation on datasets using `torchvision.transforms.v2`.
-- [**Word Embeddings**](./code/utils/word-embedding.ipynb)  
-Explore different word embedding techniques and their applications in natural language processing.
+- [**Activation Functions**](./code/utils/activation.ipynb)
+- [**Checkpoints**](./code/utils/checkpoint.ipynb)
+- [**Working with Datasets**](./code/utils/dataset.ipynb)
+- [**Parameters vs. Hyperparameters**](./code/utils/hyperparameter.ipynb)
+- [**Loss Functions**](./code/utils/loss.ipynb)
+- [**Metrics**](./code/utils/metric.ipynb)
+- [**Model Creation**](./code/utils/model-creation.ipynb)
+- [**Normalization Techniques**](./code/utils/normalization.ipynb)
+- [**Optimizers**](./code/utils/optimizer.ipynb)
+- [**Vision Transforms**](./code/utils/vision-transform.ipynb)
+- [**Word Embeddings**](./code/utils/word-embedding.ipynb)
 
 ### 📖 Models
 
@@ -129,21 +107,14 @@ This project requires Python **v3.10** or higher. It was developed and tested us
 
 ### 📦 Install Dependencies
 
-#### 📦 Method 1: Poetry (Recommended)
+#### 📦 Method 1: Poetry (**Recommended** ✅)
 
-Use [**Poetry**](https://python-poetry.org/) for dependency management. It handles dependencies, virtual environments, and locking versions more efficiently than pip. To install dependencies using Poetry:
+Use [**Poetry**](https://python-poetry.org/) for dependency management. It handles dependencies, virtual environments, and locking versions more efficiently than pip.  
+To install exact dependency versions specified in [**poetry.lock**](./poetry.lock) for consistent environments **without** installing the current project as a package:
 
-- **Option 1 [Recommended]**: Install exact dependency versions specified in [**poetry.lock**](./poetry.lock) for consistent environments:
-
-  ```bash
-  poetry install
-  ```
-
-- **Option 2**: Install the latest compatible dependency versions from [**pyproject.toml**](./pyproject.toml) and regenerate the [**poetry.lock**](./poetry.lock) file:
-
-  ```bash
-  poetry install --no-root
-  ```
+```bash
+poetry install --no-root
+```
 
 #### 📦 Method 2: Pip
 
@@ -152,40 +123,6 @@ Install all dependencies listed in [**requirements.txt**](./requirements.txt) us
 ```bash
 pip install -r requirements.txt
 ```
-
-#### 🌐 Connection Issues
-
-If you encounter connection issues during installation, you can try extending the **timeout** and increasing the number of **retries** with the following:
-
-- **For Poetry**: Use the following command to set the retries and timeout directly in the terminal **before running the install**:
-  - **Windows**:
-    - **PowerShell**:
-
-      ```bash
-      $env:POETRY_HTTP_TIMEOUT=300
-      $env:POETRY_HTTP_RETRIES=10
-      ```
-
-    - **Command Prompt**:
-
-      ```bash
-      set POETRY_HTTP_TIMEOUT=300
-      set POETRY_HTTP_RETRIES=10
-      ```
-
-  - **Linux/macOS**:
-    - **Terminal**:
-
-      ```bash
-      export POETRY_HTTP_TIMEOUT=300
-      export POETRY_HTTP_RETRIES=10
-      ```
-
-- **For Pip**: Use the `--retries` and `--timeout` flags directly in your pip command:
-
-  ```bash
-  pip install -r requirements.txt --retries 10 --timeout 300
-  ```
 
 ### 🛠️ Usage Instructions
 
@@ -250,7 +187,7 @@ I look forward to connecting with you! 🏃‍♂️
 This project is licensed under the **[Apache License 2.0](./LICENSE)**.  
 You are free to **use**, **modify**, and **distribute** this code, but you **must** include copies of both the [**LICENSE**](./LICENSE) and [**NOTICE**](./NOTICE) files in any distribution of your work.
 
-### ✍️ Additional Licensing Information
+### ©️ Copyright Information
 
 - **Original Images**:
   - The images located in the [./assets/images/original/](./assets/images/original/) folder are licensed under the **[CC BY-ND 4.0](./assets/images/original/LICENSE)**.
