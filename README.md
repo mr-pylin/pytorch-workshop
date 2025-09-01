@@ -170,7 +170,7 @@ This project requires Python **v3.10** or higher. It was developed and tested us
   - Link: [pytorch.org](https://pytorch.org/)
 - **Pytorch Documentations**:
   - Detailed and comprehensive documentation for all PyTorch features and functionalities, including tutorials and guides to help you get started and master PyTorch.
-  - Link: [pytorch.org/docs/stable/index.html](https://pytorch.org/docs/stable/index.html)
+  - Link: [docs.pytorch.org/docs/stable/index.html](https://docs.pytorch.org/docs/stable/index.html)
 - **TorchVision Documentations**:
   - The torchvision package [part of the PyTorch] consists of popular datasets, model architectures, and common image transformations for computer vision.
   - Link: [pytorch.org/vision/stable/index.html](https://pytorch.org/vision/stable/index.html)
