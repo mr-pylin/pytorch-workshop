@@ -1,7 +1,7 @@
 # 🔥 PyTorch Workshop
 
 [![License](https://img.shields.io/github/license/mr-pylin/pytorch-workshop?color=blue)](https://github.com/mr-pylin/pytorch-workshop/blob/main/LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.12.8-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3128/)
+[![Python Version](https://img.shields.io/badge/Python-3.13.7-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3137/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/1faf9d4577d3406a9ac65a4cb8d3d4f1)](https://app.codacy.com/gh/mr-pylin/pytorch-workshop/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Code Style](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/psf/black)
 ![Repo Size](https://img.shields.io/github/repo-size/mr-pylin/pytorch-workshop?color=lightblue)
@@ -86,43 +86,63 @@ Implementation details are provided in the **README** files within the parent di
 
 ## ⚙️ Setup
 
-This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.12.8**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
+This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.13.7**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
 
 ### 📝 List of Dependencies
 
-[![datasets](https://img.shields.io/badge/datasets-3.2.0-purple)](https://pypi.org/project/datasets/3.2.0/)
-[![ipykernel](https://img.shields.io/badge/ipykernel-6.29.5-ff69b4)](https://pypi.org/project/ipykernel/6.29.5/)
-[![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.5-ff6347)](https://pypi.org/project/ipywidgets/8.1.5/)
-[![matplotlib](https://img.shields.io/badge/matplotlib-3.10.0-green)](https://pypi.org/project/matplotlib/3.10.0/)
-[![numpy](https://img.shields.io/badge/numpy-2.2.1-orange)](https://pypi.org/project/numpy/2.2.1/)
-[![pandas](https://img.shields.io/badge/pandas-2.2.3-yellow)](https://pypi.org/project/pandas/2.2.3/)
-[![PySoundFile](https://img.shields.io/badge/PySoundFile-0.9.0.post1-red)](https://pypi.org/project/PySoundFile/0.9.0.post1/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6.0-darkblue)](https://pypi.org/project/scikit-learn/1.6.0/)
+[![datasets](https://img.shields.io/badge/datasets-4.0.0-purple)](https://pypi.org/project/datasets/4.0.0/)
+[![ipykernel](https://img.shields.io/badge/ipykernel-6.30.1-ff69b4)](https://pypi.org/project/ipykernel/6.30.1/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-3.10.6-green)](https://pypi.org/project/matplotlib/3.10.6/)
+[![numpy](https://img.shields.io/badge/numpy-2.3.2-orange)](https://pypi.org/project/numpy/2.3.2/)
+[![pandas](https://img.shields.io/badge/pandas-2.3.2-yellow)](https://pypi.org/project/pandas/2.3.2/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.7.1-darkblue)](https://pypi.org/project/scikit-learn/1.7.1/)
 [![seaborn](https://img.shields.io/badge/seaborn-0.13.2-lightblue)](https://pypi.org/project/seaborn/0.13.2/)
-[![torch](https://img.shields.io/badge/torch-2.5.1%2Bcu124-gold)](https://pytorch.org/)
-[![torchaudio](https://img.shields.io/badge/torchaudio-2.5.1%2Bcu124-lightgreen)](https://pytorch.org/)
-[![torchvision](https://img.shields.io/badge/torchvision-0.20.1%2Bcu124-teal)](https://pytorch.org/)
+[![torch](https://img.shields.io/badge/torch-2.8.0-gold)](https://pytorch.org/)
+[![torchaudio](https://img.shields.io/badge/torchaudio-2.8.0-lightgreen)](https://pytorch.org/)
+[![torchvision](https://img.shields.io/badge/torchvision-0.23.0-teal)](https://pytorch.org/)
 [![torchinfo](https://img.shields.io/badge/torchinfo-1.8.0-blueviolet)](https://pypi.org/project/torchinfo/1.8.0/)
-[![torchmetrics](https://img.shields.io/badge/torchmetrics-1.6.1-lightgray)](https://pypi.org/project/torchmetrics/1.6.1/)
+[![torchmetrics](https://img.shields.io/badge/torchmetrics-1.8.1-lightgray)](https://pypi.org/project/torchmetrics/1.8.1/)
+<!-- [![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.5-ff6347)](https://pypi.org/project/ipywidgets/8.1.5/) -->
+<!-- [![PySoundFile](https://img.shields.io/badge/PySoundFile-0.9.0.post1-red)](https://pypi.org/project/PySoundFile/0.9.0.post1/) -->
 
 ### 📦 Install Dependencies
 
-#### 📦 Method 1: Poetry (**Recommended** ✅)
+#### 🖥️ Platform Compatibility
 
-Use [**Poetry**](https://python-poetry.org/) for dependency management. It handles dependencies, virtual environments, and locking versions more efficiently than pip.  
-To install exact dependency versions specified in [**poetry.lock**](./poetry.lock) for consistent environments **without** installing the current project as a package:
+| **Operating System**  | **GPU Type** | **Recommended Installation** |
+|:---------------------:|:------------:|:----------------------------:|
+| Windows/Linux/macOS   | No GPU       | CPU version                  |
+| Windows/Linux         | NVIDIA GPU   | CUDA version                 |
+| Linux                 | AMD GPU      | ROCm version                 |
+| macOS (Apple Silicon) | Apple GPU    | CPU version*                 |
 
-```bash
-poetry install --no-root
-```
+- *macOS uses Metal Performance Shaders (MPS) backend automatically when available.
+- **Tip**: It's better to check the official [PyTorch installation guide](https://pytorch.org/get-started/locally/) to find the best option for your specific system configuration.
+  - CUDA semantics: [docs.pytorch.org/docs/stable/notes/cuda.html](https://docs.pytorch.org/docs/stable/notes/cuda.html)
+  - HIP (ROCm) semantics: [docs.pytorch.org/docs/stable/notes/hip.html](https://docs.pytorch.org/docs/stable/notes/hip.html)
+  - Getting Started on Intel GPU: [docs.pytorch.org/docs/stable/notes/get_start_xpu.html](https://docs.pytorch.org/docs/stable/notes/get_start_xpu.html)
+  - MPS backend: [docs.pytorch.org/docs/stable/notes/mps.html](https://docs.pytorch.org/docs/stable/notes/mps.html)
+
+#### 📦 Method 1: uv (**Recommended** ✅)
+
+- Use [**uv**](https://docs.astral.sh/uv/) for dependency management. It handles dependencies, virtual environments, and locking versions more efficiently than pip.  
+- To install exact dependency versions specified in [**uv.lock**](./uv.lock) for consistent environments **without** installing the current project as a package:
+
+  ```bash
+  uv sync --no-install-project --extra cpu   # Install PyTorch with CPU-only support
+  uv sync --no-install-project --extra cuda  # Install PyTorch with CUDA GPU support
+  # Note: For ROCm version, visit https://docs.astral.sh/uv/guides/integration/pytorch/
+  ```
 
 #### 📦 Method 2: Pip
 
-Install all dependencies listed in [**requirements.txt**](./requirements.txt) using [**pip**](https://pip.pypa.io/en/stable/installation/):
+- Install all dependencies listed in [**requirements.txt**](./requirements.txt) using [**pip**](https://pip.pypa.io/en/stable/installation/):
 
-```bash
-pip install -r requirements.txt
-```
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+- **Note**: The [**requirements.txt**](./requirements.txt) includes **CUDA-enabled** PyTorch by **default**. For different platforms, modify the `--extra-index-url` in [**requirements.txt**](./requirements.txt).
 
 ### 🛠️ Usage Instructions
 
@@ -133,7 +153,7 @@ pip install -r requirements.txt
 
 ✍️ **Notes**:  
 
-- It is **highly recommended** to stick with the exact dependency versions specified in [**poetry.lock**](./poetry.lock) or [**requirements.txt**](./requirements.txt) rather than using the latest package versions. The repository has been **tested** on these versions to ensure **compatibility** and **stability**.
+- It is **highly recommended** to stick with the exact dependency versions specified in [**uv.lock**](./uv.lock) or [**requirements.txt**](./requirements.txt) rather than using the latest package versions. The repository has been **tested** on these versions to ensure **compatibility** and **stability**.
 - This repository is **actively maintained**, and dependencies are **updated regularly** to the latest **stable** versions.
 - The **table of contents** embedded in the **notebooks** may not function correctly on **GitHub**.
 - For an improved experience, open the notebooks **locally** or view them via [**nbviewer**](https://nbviewer.org/github/mr-pylin/pytorch-workshop).

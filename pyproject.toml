@@ -1,42 +1,100 @@
-[tool.poetry]
-package-mode = false
-name = "pytorch_workshop"
+[project]
+name = "pytorchworkshop"
+version = "0.1.0"
 description = "A comprehensive resource to master PyTorch, from basics to advanced techniques, for deep learning enthusiasts and practitioners"
-authors = ["Amirhossein Heydari <amirhosseinheydari78@gmail.com>"]
-maintainers = ["Amirhossein Heydari <amirhosseinheydari78@gmail.com>"]
-license = "Apache-2.0"
-repository = "https://github.com/mr-pylin/pytorch-workshop"
+authors = [
+    {name = "Amirhossein Heydari", email =  "amirhosseinheydari78@gmail.com"}
+]
+maintainers = [
+    {name = "Amirhossein Heydari", email =  "amirhosseinheydari78@gmail.com"}
+]
 keywords = ["PyTorch", "deep learning", "machine learning", "neural networks"]
 readme = "README.md"
+license = "Apache-2.0"
+license-files = [
+    "LICENSE",
+    "assets/original/LICENSE"
+]
+requires-python = ">=3.13.7"
+dependencies = [
+    "datasets>=4.0.0,<5.0.0",
+    "matplotlib>=3.10.6,<4.0.0",
+    "numpy>=2.3.2,<3.0.0",
+    "pandas>=2.3.2,<3.0.0",
+    "scikit-learn>=1.7.1,<2.0.0",
+    "seaborn>=0.13.2,<1.0.0",
+    "torchinfo>=1.8.0,<2.0.0",
+    "torchmetrics>=1.8.1,<2.0.0",
+]
 
-[tool.poetry.urls]
-"Amirhossein Heydari Homepage" = "https://mr-pylin.github.io"
+[project.optional-dependencies]
+cpu = [
+    "torch==2.8.0",
+    "torchaudio==2.8.0",
+    "torchvision==0.23.0",
+]
+cuda = [
+    "torch==2.8.0",
+    "torchaudio==2.8.0",
+    "torchvision==0.23.0",
+]
+rocm = [
+    "torch==2.8.0",
+    "torchaudio==2.8.0",
+    "torchvision==0.23.0",
+]
 
-[tool.poetry.dependencies]
-python = "3.12.8"
-datasets = "^3.2.0"
-ipykernel = "^6.29.5"
-ipywidgets = "^8.1.5"
-matplotlib = "^3.10.0"
-numpy = "^2.2.1"
-pandas = "^2.2.3"
-PySoundFile = "^0.9.0.post1"
-scikit-learn = "^1.6.0"
-seaborn = "^0.13.2"
-torch = { version = "2.5.1+cu124", source = "pytorch" }
-torchaudio = { version = "2.5.1+cu124", source = "pytorch" }
-torchinfo = "^1.8.0"
-torchmetrics = "^1.6.1"
-torchvision = { version = "0.20.1+cu124", source = "pytorch" }
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1,<7.0.0",
+    # "ipywidgets>=8.1.7,<9.0.0",
+]
 
-[[tool.poetry.source]]
-name = "pytorch"
-url = "https://download.pytorch.org/whl/cu124"
-priority = "supplemental"
+[tool.uv]
+conflicts = [
+  [
+    { extra = "cpu" },
+    { extra = "cuda" },
+    { extra = "rocm" },
+  ],
+]
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[project.urls]
+Repository = "https://github.com/mr-pylin/pytorch-workshop"
+MyHomepage = "https://mr-pylin.github.io"
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu", extra = "cpu" },
+  { index = "pytorch-cu129", extra = "cuda" },
+#   { index = "pytorch-rocm64", extra = "rocm" },
+]
+torchaudio = [
+  { index = "pytorch-cpu", extra = "cpu" },
+  { index = "pytorch-cu129", extra = "cuda" },
+#   { index = "pytorch-rocm64", extra = "rocm" },
+]
+torchvision = [
+  { index = "pytorch-cpu", extra = "cpu" },
+  { index = "pytorch-cu129", extra = "cuda" },
+#   { index = "pytorch-rocm64", extra = "rocm" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cu129"
+url = "https://download.pytorch.org/whl/cu129"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-rocm64"
+url = "https://download.pytorch.org/whl/rocm6.4"
+explicit = true
+
 
 [tool.black]
 line-length = 120
