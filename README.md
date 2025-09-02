@@ -173,10 +173,10 @@ This project requires Python **v3.10** or higher. It was developed and tested us
   - Link: [docs.pytorch.org/docs/stable/index.html](https://docs.pytorch.org/docs/stable/index.html)
 - **TorchVision Documentations**:
   - The torchvision package [part of the PyTorch] consists of popular datasets, model architectures, and common image transformations for computer vision.
-  - Link: [pytorch.org/vision/stable/index.html](https://pytorch.org/vision/stable/index.html)
+  - Link: [docs.pytorch.org/vision/stable/index.html](https://docs.pytorch.org/vision/stable/index.html)
 - **TorchAudio Documentation**:
   - The torchaudio package [part of the PyTorch] consists of audio I/O and signal processing functionalities, enabling efficient loading, transforming, and manipulating audio.
-  - Link: [pytorch.org/audio/stable/index.html](https://pytorch.org/audio/stable/index.html)
+  - Link: [docs.pytorch.org/audio/stable/index.html](https://docs.pytorch.org/audio/stable/index.html)
 
 ### **NumPy**
 
