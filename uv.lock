@@ -1493,7 +1493,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=2.3.2,<3.0.0" },
     { name = "scikit-learn", specifier = ">=1.7.1,<2.0.0" },
     { name = "seaborn", specifier = ">=0.13.2,<1.0.0" },
-    { name = "soundfile", specifier = ">=0.13.1" },
+    { name = "soundfile", specifier = ">=0.13.1,<1.0.0" },
     { name = "torch", marker = "extra == 'cpu'", specifier = "==2.8.0", index = "https://download.pytorch.org/whl/cpu", conflict = { package = "pytorchworkshop", extra = "cpu" } },
     { name = "torch", marker = "extra == 'cuda'", specifier = "==2.8.0", index = "https://download.pytorch.org/whl/cu129", conflict = { package = "pytorchworkshop", extra = "cuda" } },
     { name = "torch", marker = "extra == 'rocm'", specifier = "==2.8.0" },

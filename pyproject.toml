@@ -13,7 +13,7 @@ readme = "README.md"
 license = "Apache-2.0"
 license-files = [
     "LICENSE",
-    "assets/original/LICENSE"
+    "assets/images/original/LICENSE"
 ]
 requires-python = ">=3.13.7"
 dependencies = [
@@ -23,10 +23,14 @@ dependencies = [
     "pandas>=2.3.2,<3.0.0",
     "scikit-learn>=1.7.1,<2.0.0",
     "seaborn>=0.13.2,<1.0.0",
-    "soundfile>=0.13.1",
+    "soundfile>=0.13.1,<1.0.0",
     "torchinfo>=1.8.0,<2.0.0",
     "torchmetrics>=1.8.1,<2.0.0",
 ]
+
+[project.urls]
+Repository = "https://github.com/mr-pylin/pytorch-workshop"
+MyHomepage = "https://mr-pylin.github.io"
 
 [project.optional-dependencies]
 cpu = [
@@ -60,10 +64,6 @@ conflicts = [
   ],
 ]
 
-[project.urls]
-Repository = "https://github.com/mr-pylin/pytorch-workshop"
-MyHomepage = "https://mr-pylin.github.io"
-
 [tool.uv.sources]
 torch = [
   { index = "pytorch-cpu", extra = "cpu" },
@@ -95,7 +95,6 @@ explicit = true
 name = "pytorch-rocm64"
 url = "https://download.pytorch.org/whl/rocm6.4"
 explicit = true
-
 
 [tool.black]
 line-length = 120
