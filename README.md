@@ -12,6 +12,11 @@ A comprehensive **PyTorch** workshop covering the fundamentals and advanced tech
 
 ## 📖 Table of Contents
 
+### 📘 Essentials
+
+1. [**Linear Algebra Basics**](./code/base/01-linalg-basics.ipynb)
+1. [**Introductions to Convolution**](./code/base/02-convolution.ipynb)
+
 ### 📖 Main Notebooks
 
 1. [**Introduction to Tensors**](./code/01-tensor.ipynb)
