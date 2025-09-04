@@ -1,5 +1,5 @@
 [project]
-name = "pytorchworkshop"
+name = "pytorch-workshop"
 version = "0.1.0"
 description = "A comprehensive resource to master PyTorch, from basics to advanced techniques, for deep learning enthusiasts and practitioners"
 authors = [
