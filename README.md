@@ -72,11 +72,11 @@ Implementation details are provided in the **README** files within the parent di
 
 - 👨‍💻 **Programming Fundamentals**
   - Proficiency in **Python** (data types, control structures, functions, classes, etc.).
-    - My Python Workshop: [github.com/mr-pylin/python-workshop](https://github.com/mr-pylin/python-workshop)
+    - My Python Workshop: [**github.com/mr-pylin/python-workshop**](https://github.com/mr-pylin/python-workshop)
   - Experience with libraries like **NumPy**, **Pandas** and **Matplotlib**.
-    - My NumPy Workshop: [github.com/mr-pylin/numpy-workshop](https://github.com/mr-pylin/numpy-workshop)
-    - My Pandas Workshop: [Coming Soon](https://github.com/mr-pylin/#)
-    - My Data Visualization Workshop: [github.com/mr-pylin/data-visualization-workshop](https://github.com/mr-pylin/data-visualization-workshop)
+    - My NumPy Workshop: [**github.com/mr-pylin/numpy-workshop**](https://github.com/mr-pylin/numpy-workshop)
+    - My Pandas Workshop: [**Coming Soon**](https://github.com/mr-pylin/#)
+    - My Data Visualization Workshop: [**github.com/mr-pylin/data-visualization-workshop**](https://github.com/mr-pylin/data-visualization-workshop)
 - 🔣 **Mathematics for Machine Learning**
   - 🔲 **Linear Algebra**: Vectors, matrices, matrix operations.
     - [**Linear Algebra Review and Reference**](https://www.cs.cmu.edu/%7Ezkolter/course/linalg/linalg_notes.pdf) written by [*Zico Kolter*](https://zicokolter.com).
