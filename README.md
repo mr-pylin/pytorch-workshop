@@ -95,20 +95,20 @@ This project requires Python **v3.10** or higher. It was developed and tested us
 
 ### 📝 List of Dependencies
 
-[![datasets](https://img.shields.io/badge/datasets-4.0.0-purple)](https://pypi.org/project/datasets/4.0.0/)
+[![datasets](https://img.shields.io/badge/datasets-4.2.0-purple)](https://pypi.org/project/datasets/4.2.0/)
 [![ipykernel](https://img.shields.io/badge/ipykernel-6.30.1-ff69b4)](https://pypi.org/project/ipykernel/6.30.1/)
-[![matplotlib](https://img.shields.io/badge/matplotlib-3.10.6-green)](https://pypi.org/project/matplotlib/3.10.6/)
-[![numpy](https://img.shields.io/badge/numpy-2.3.2-orange)](https://pypi.org/project/numpy/2.3.2/)
-[![pandas](https://img.shields.io/badge/pandas-2.3.2-yellow)](https://pypi.org/project/pandas/2.3.2/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.7.1-darkblue)](https://pypi.org/project/scikit-learn/1.7.1/)
+[![ipympl](https://img.shields.io/badge/ipympl-0.9.8-orange)](https://pypi.org/project/ipympl/0.9.8/)
+[![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.7-red)](https://pypi.org/project/ipywidgets/8.1.7/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-3.10.7-green)](https://pypi.org/project/matplotlib/3.10.7/)
+[![numpy](https://img.shields.io/badge/numpy-2.3.4-orange)](https://pypi.org/project/numpy/2.3.4/)
+[![pandas](https://img.shields.io/badge/pandas-2.3.3-yellow)](https://pypi.org/project/pandas/2.3.3/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.7.2-darkblue)](https://pypi.org/project/scikit-learn/1.7.2/)
 [![seaborn](https://img.shields.io/badge/seaborn-0.13.2-lightblue)](https://pypi.org/project/seaborn/0.13.2/)
-[![torch](https://img.shields.io/badge/torch-2.8.0-gold)](https://pytorch.org/)
-[![torchaudio](https://img.shields.io/badge/torchaudio-2.8.0-lightgreen)](https://pytorch.org/)
-[![torchvision](https://img.shields.io/badge/torchvision-0.23.0-teal)](https://pytorch.org/)
+[![torch](https://img.shields.io/badge/torch-2.9.0-gold)](https://pytorch.org/)
+[![torchaudio](https://img.shields.io/badge/torchaudio-2.9.0-lightgreen)](https://pytorch.org/)
+[![torchvision](https://img.shields.io/badge/torchvision-0.24.0-teal)](https://pytorch.org/)
 [![torchinfo](https://img.shields.io/badge/torchinfo-1.8.0-blueviolet)](https://pypi.org/project/torchinfo/1.8.0/)
-[![torchmetrics](https://img.shields.io/badge/torchmetrics-1.8.1-lightgray)](https://pypi.org/project/torchmetrics/1.8.1/)
-<!-- [![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.5-ff6347)](https://pypi.org/project/ipywidgets/8.1.5/) -->
-<!-- [![PySoundFile](https://img.shields.io/badge/PySoundFile-0.9.0.post1-red)](https://pypi.org/project/PySoundFile/0.9.0.post1/) -->
+[![torchmetrics](https://img.shields.io/badge/torchmetrics-1.8.2-lightgray)](https://pypi.org/project/torchmetrics/1.8.2/)
 
 ### 📦 Install Dependencies
 
