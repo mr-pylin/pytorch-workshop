@@ -1,7 +1,7 @@
 # 🔥 PyTorch Workshop
 
 [![License](https://img.shields.io/github/license/mr-pylin/pytorch-workshop?color=blue)](https://github.com/mr-pylin/pytorch-workshop/blob/main/LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.13.7-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3137/)
+[![Python Version](https://img.shields.io/badge/Python-3.13.9-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3137/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/1faf9d4577d3406a9ac65a4cb8d3d4f1)](https://app.codacy.com/gh/mr-pylin/pytorch-workshop/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Code Style](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/psf/black)
 ![Repo Size](https://img.shields.io/github/repo-size/mr-pylin/pytorch-workshop?color=lightblue)
@@ -91,12 +91,12 @@ Implementation details are provided in the **README** files within the parent di
 
 ## ⚙️ Setup
 
-This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.13.7**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
+This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.13.9**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
 
 ### 📝 List of Dependencies
 
-[![datasets](https://img.shields.io/badge/datasets-4.2.0-purple)](https://pypi.org/project/datasets/4.2.0/)
-[![ipykernel](https://img.shields.io/badge/ipykernel-6.30.1-ff69b4)](https://pypi.org/project/ipykernel/6.30.1/)
+[![datasets](https://img.shields.io/badge/datasets-4.3.0-purple)](https://pypi.org/project/datasets/4.3.0/)
+[![ipykernel](https://img.shields.io/badge/ipykernel-7.0.1-ff69b4)](https://pypi.org/project/ipykernel/7.0.1/)
 [![ipympl](https://img.shields.io/badge/ipympl-0.9.8-orange)](https://pypi.org/project/ipympl/0.9.8/)
 [![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.7-red)](https://pypi.org/project/ipywidgets/8.1.7/)
 [![matplotlib](https://img.shields.io/badge/matplotlib-3.10.7-green)](https://pypi.org/project/matplotlib/3.10.7/)

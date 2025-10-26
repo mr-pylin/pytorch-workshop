@@ -15,9 +15,12 @@ license-files = [
     "LICENSE",
     "assets/images/original/LICENSE"
 ]
-requires-python = ">=3.13.7"
+requires-python = ">=3.13.9"
 dependencies = [
-    "datasets>=4.2.0,<5.0.0",
+    "ipykernel>=7.0.1,<8.0.0",
+    "ipympl>=0.9.8,<1.0.0",
+    "ipywidgets>=8.1.7,<9.0.0",
+    "datasets>=4.3.0,<5.0.0",
     "matplotlib>=3.10.7,<4.0.0",
     "numpy>=2.3.4,<3.0.0",
     "pandas>=2.3.3,<3.0.0",
@@ -47,13 +50,6 @@ rocm = [
     "torch==2.9.0",
     "torchaudio==2.9.0",
     "torchvision==0.24.0",
-]
-
-[dependency-groups]
-dev = [
-    "ipykernel>=6.30.1,<7.0.0",
-    "ipympl>=0.9.8,<1.0.0",
-    "ipywidgets>=8.1.7,<9.0.0",
 ]
 
 [tool.uv]
