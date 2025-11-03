@@ -75,7 +75,7 @@ Implementation details are provided in the **README** files within the parent di
     - My Python Workshop: [**github.com/mr-pylin/python-workshop**](https://github.com/mr-pylin/python-workshop)
   - Experience with libraries like **NumPy**, **Pandas** and **Matplotlib**.
     - My NumPy Workshop: [**github.com/mr-pylin/numpy-workshop**](https://github.com/mr-pylin/numpy-workshop)
-    - My Pandas Workshop: [**Coming Soon**](https://github.com/mr-pylin/#)
+    - My Pandas Workshop: [**github.com/mr-pylin/pandas-workshop**](https://github.com/mr-pylin/pandas-workshop)
     - My Data Visualization Workshop: [**github.com/mr-pylin/data-visualization-workshop**](https://github.com/mr-pylin/data-visualization-workshop)
 - 🔣 **Mathematics for Machine Learning**
   - 🔲 **Linear Algebra**: Vectors, matrices, matrix operations.
