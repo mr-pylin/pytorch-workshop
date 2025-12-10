@@ -101,6 +101,7 @@ This project requires Python **v3.10** or higher. It was developed and tested us
 [![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.7-red)](https://pypi.org/project/ipywidgets/8.1.7/)
 [![matplotlib](https://img.shields.io/badge/matplotlib-3.10.7-green)](https://pypi.org/project/matplotlib/3.10.7/)
 [![numpy](https://img.shields.io/badge/numpy-2.3.4-orange)](https://pypi.org/project/numpy/2.3.4/)
+[![opencv-python](https://img.shields.io/badge/opencv--python-4.11.0.86-blue)](https://pypi.org/project/opencv-python/4.11.0.86/)
 [![pandas](https://img.shields.io/badge/pandas-2.3.3-yellow)](https://pypi.org/project/pandas/2.3.3/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.7.2-darkblue)](https://pypi.org/project/scikit-learn/1.7.2/)
 [![seaborn](https://img.shields.io/badge/seaborn-0.13.2-lightblue)](https://pypi.org/project/seaborn/0.13.2/)
