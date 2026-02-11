@@ -2,11 +2,13 @@
 
 [![License](https://img.shields.io/github/license/mr-pylin/pytorch-workshop?color=blue)](https://github.com/mr-pylin/pytorch-workshop/blob/main/LICENSE)
 [![Python Version](https://img.shields.io/badge/Python-3.13.9-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3139/)
+[![torch](https://img.shields.io/badge/torch-2.9.0-gold?logo=pytorch)](https://pytorch.org/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/1faf9d4577d3406a9ac65a4cb8d3d4f1)](https://app.codacy.com/gh/mr-pylin/pytorch-workshop/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Code Style](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/psf/black)
 ![Repo Size](https://img.shields.io/github/repo-size/mr-pylin/pytorch-workshop?color=lightblue)
 ![Last Updated](https://img.shields.io/github/last-commit/mr-pylin/pytorch-workshop?color=orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?color=brightgreen)](https://github.com/mr-pylin/pytorch-workshop/pulls)
+[![Telegram](https://img.shields.io/badge/Telegram-Group-black?logo=telegram)](https://t.me/python_topics)
 
 A comprehensive **PyTorch** workshop covering the fundamentals and advanced techniques of deep learning.
 
@@ -70,6 +72,9 @@ Implementation details are provided in the **README** files within the parent di
 
 ## 📋 Prerequisites
 
+> [!NOTE]
+> The mathematics requirements below are **not mandatory** but will significantly deepen your understanding of machine learning concepts.
+
 - 👨‍💻 **Programming Fundamentals**
   - Proficiency in **Python** (data types, control structures, functions, classes, etc.).
     - My Python Workshop: [**github.com/mr-pylin/python-workshop**](https://github.com/mr-pylin/python-workshop)
@@ -91,7 +96,8 @@ Implementation details are provided in the **README** files within the parent di
 
 ## ⚙️ Setup
 
-This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.13.9**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
+> [!IMPORTANT]
+> This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.13.9**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
 
 ### 📝 List of Dependencies
 
@@ -122,12 +128,15 @@ This project requires Python **v3.10** or higher. It was developed and tested us
 | Linux                 | AMD GPU      | ROCm version                 |
 | macOS (Apple Silicon) | Apple GPU    | CPU version*                 |
 
-- *macOS uses Metal Performance Shaders (MPS) backend automatically when available.
-- **Tip**: It's better to check the official [PyTorch installation guide](https://pytorch.org/get-started/locally/) to find the best option for your specific system configuration.
-  - CUDA semantics: [docs.pytorch.org/docs/stable/notes/cuda.html](https://docs.pytorch.org/docs/stable/notes/cuda.html)
-  - HIP (ROCm) semantics: [docs.pytorch.org/docs/stable/notes/hip.html](https://docs.pytorch.org/docs/stable/notes/hip.html)
-  - Getting Started on Intel GPU: [docs.pytorch.org/docs/stable/notes/get_start_xpu.html](https://docs.pytorch.org/docs/stable/notes/get_start_xpu.html)
-  - MPS backend: [docs.pytorch.org/docs/stable/notes/mps.html](https://docs.pytorch.org/docs/stable/notes/mps.html)
+\* macOS uses Metal Performance Shaders (MPS) backend automatically when available.
+
+> [!TIP]
+> Check the official [PyTorch installation guide](https://pytorch.org/get-started/locally/ ) to find the best option for your specific system configuration.
+>
+> - [CUDA semantics](https://docs.pytorch.org/docs/stable/notes/cuda.html )
+> - [HIP (ROCm) semantics](https://docs.pytorch.org/docs/stable/notes/hip.html )
+> - [Getting Started on Intel GPU](https://docs.pytorch.org/docs/stable/notes/get_start_xpu.html )
+> - [MPS backend](https://docs.pytorch.org/docs/stable/notes/mps.html )
 
 #### 📦 Method 1: uv (**Recommended** ✅)
 
@@ -148,7 +157,11 @@ This project requires Python **v3.10** or higher. It was developed and tested us
   pip install -r requirements.txt
   ```
 
-- **Note**: The [**requirements.txt**](./requirements.txt) includes **CUDA-enabled** PyTorch by **default**. For different platforms, modify the `--extra-index-url` in [**requirements.txt**](./requirements.txt).
+> [!WARNING]
+> The [**requirements.txt**](./requirements.txt) includes **CUDA-enabled** PyTorch by **default**. For different platforms, modify the `--extra-index-url` in [**requirements.txt**](./requirements.txt).
+
+> [!CAUTION]
+> Pip does not lock dependency versions as strictly as `uv`. You may encounter version conflicts or reproducibility issues. Only use this method if you know what you are doing.
 
 ### 🛠️ Usage Instructions
 
@@ -157,12 +170,12 @@ This project requires Python **v3.10** or higher. It was developed and tested us
 1. Select the correct Python kernel and virtual environment where the dependencies were installed.
 1. Allow **VS Code** to install any recommended dependencies for working with Jupyter Notebooks.
 
-✍️ **Notes**:  
-
-- It is **highly recommended** to stick with the exact dependency versions specified in [**uv.lock**](./uv.lock) or [**requirements.txt**](./requirements.txt) rather than using the latest package versions. The repository has been **tested** on these versions to ensure **compatibility** and **stability**.
-- This repository is **actively maintained**, and dependencies are **updated regularly** to the latest **stable** versions.
-- The **table of contents** embedded in the **notebooks** may not function correctly on **GitHub**.
-- For an improved experience, open the notebooks **locally** or view them via [**nbviewer**](https://nbviewer.org/github/mr-pylin/pytorch-workshop).
+> [!NOTE]
+>
+> - It is **highly recommended** to stick with the exact dependency versions specified in [**uv.lock**](./uv.lock) or [**requirements.txt**](./requirements.txt) rather than using the latest package versions. The repository has been **tested** on these versions to ensure **compatibility** and **stability**.
+> - This repository is **actively maintained**, and dependencies are **updated regularly** to the latest **stable** versions.
+> - The **table of contents** embedded in the **notebooks** may not function correctly on **GitHub**.
+> - For an improved experience, open the notebooks **locally** or view them via [**nbviewer**](https://nbviewer.org/github/mr-pylin/pytorch-workshop).
 
 ## 🔗 Useful Links
 
@@ -200,11 +213,13 @@ This project requires Python **v3.10** or higher. It was developed and tested us
 - A comprehensive collection of Python libraries for creating static, animated, and interactive visualizations: **Matplotlib**, **Seaborn**, and **Plotly**.
 - Official sites: [matplotlib.org](https://matplotlib.org/) | [seaborn.pydata.org](https://seaborn.pydata.org/) | [plotly.com](https://plotly.com/)
 
-## 🔍 Find Me
+## 🔍 Connect With Me
 
-Any mistakes, suggestions, or contributions? Feel free to reach out to me at:
+Any mistakes, suggestions, or contributions? Feel free to reach out:
 
-- 📍[**linktr.ee/mr_pylin**](https://linktr.ee/mr_pylin)
+- 📍 All links: [**linktr.ee/mr_pylin**](https://linktr.ee/mr_pylin)
+- 💬 Telegram Group: [**@python_topics**](https://t.me/python_topics)
+- 📧 Email: [**amirhosseinheydari78@gmail.com**](mailto:amirhosseinheydari78@gmail.com)
 
 I look forward to connecting with you! 🏃‍♂️
 
@@ -218,13 +233,8 @@ You are free to **use**, **modify**, and **distribute** this code, but you **mus
 - **Original Images**:
   - The images located in the [**./assets/images/original/**](./assets/images/original/) folder are licensed under the **[CC BY-ND 4.0](./assets/images/original/LICENSE)**.
   - Note: This license restricts derivative works, meaning you may share these images but cannot modify them.
-
 - **PyTorch Assets**:
-  - The images located in [**./assets/images/pytorch/**](./assets/images/pytorch/) are sourced from the [**official PyTorch website**](https://pytorch.org/) and related documentation.
-  - These materials remain the property of the PyTorch project and their respective copyright holders.
-  - They are included for educational purposes.
-  - See [**./assets/images/pytorch/ATTRIBUTION.md**](./assets/images/pytorch/ATTRIBUTION.md) for detailed attribution and source references.
-
+  - The images located in the [**./assets/images/pytorch/**](./assets/images/pytorch/) folder are sourced from the [**PyTorch official website**](https://pytorch.org/) and are licensed under the [**BSD 3-Clause License**](https://opensource.org/licenses/BSD-3-Clause).
 - **Third-Party Assets**:
   - Additional images located in [**./assets/images/third_party/**](./assets/images/third_party/) are used with permission or according to their original licenses.
-  - Attributions and references to original sources are provided alongside the relevant materials.
+  - Attributions and references to original sources are included in the code where these images are used.
