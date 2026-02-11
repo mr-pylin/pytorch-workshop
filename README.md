@@ -218,8 +218,13 @@ You are free to **use**, **modify**, and **distribute** this code, but you **mus
 - **Original Images**:
   - The images located in the [**./assets/images/original/**](./assets/images/original/) folder are licensed under the **[CC BY-ND 4.0](./assets/images/original/LICENSE)**.
   - Note: This license restricts derivative works, meaning you may share these images but cannot modify them.
+
 - **PyTorch Assets**:
-  - The images located in the [**assets/images/pytorch/**](./assets/images/pytorch/) folder are sourced from the [**PyTorch official website**](https://pytorch.org/) and are licensed under the [**BSD 3-Clause License**](https://opensource.org/licenses/BSD-3-Clause).
+  - The images located in [**./assets/images/pytorch/**](./assets/images/pytorch/) are sourced from the [**official PyTorch website**](https://pytorch.org/) and related documentation.
+  - These materials remain the property of the PyTorch project and their respective copyright holders.
+  - They are included for educational purposes.
+  - See [**./assets/images/pytorch/ATTRIBUTION.md**](./assets/images/pytorch/ATTRIBUTION.md) for detailed attribution and source references.
+
 - **Third-Party Assets**:
   - Additional images located in [**./assets/images/third_party/**](./assets/images/third_party/) are used with permission or according to their original licenses.
-  - Attributions and references to original sources are included in the code where these images are used.
+  - Attributions and references to original sources are provided alongside the relevant materials.

@@ -17,10 +17,14 @@ limitations under the License.
 
 This project includes educational code developed by Amirhossein Heydari.
 
-**Third-Party Licenses**  
+Third-Party Materials
 
-- This repository contains original images in `./assets/images/original/` under the Creative Commons Attribution-NoDerivatives (CC BY-ND) license.  
-  Please refer to the `LICENSE` file within that folder for details.
+- Original images located in `./assets/images/original/` are licensed under the Creative Commons Attribution-NoDerivatives (CC BY-ND 4.0) license.
+  See the `LICENSE` file within that directory for full license terms.
 
-- Additional images in `./assets/images/third_party/` are used with permission or according to their original licenses.  
-  Attributions and references to original sources are included in the code where these images are used.
+- Images in `./assets/images/pytorch/` are sourced from official PyTorch documentation and related materials.
+  All trademarks and copyrights remain the property of their respective owners.
+  Detailed attribution and source references are provided in `./assets/images/pytorch/ATTRIBUTION.md`.
+
+- Additional images located in `./assets/images/third_party/` are used with permission or under their respective original licenses.
+  Relevant attributions and license information are included with those materials.
