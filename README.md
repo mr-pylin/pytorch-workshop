@@ -29,9 +29,8 @@ A comprehensive **PyTorch** workshop covering the fundamentals and advanced tech
 1. [**Radial Basis Function Networks**](./code/06-radial-basis-function-networks.ipynb)
 1. [**Convolutional Neural Networks**](./code/07-convolutional-neural-networks.ipynb)
 1. [**Feature Extraction**](./code/08-feature-extraction.ipynb)
-1. [**Transfer Learning**](./code/09-transfer-learning.ipynb)
-1. [**Fine-Tuning Models**](./code/10-fine-tuning.ipynb)
-1. [**Recurrent Neural Networks**](./code/11-recurrent-neural-networks.ipynb)
+1. [**Reuse Models (Transfer Learning & Fine-tuning)**](./code/09-transfer-learning.ipynb)
+1. [**Recurrent Neural Networks**](./code/10-recurrent-neural-networks.ipynb)
 
 ### 📖 Utilities
 
