@@ -52,14 +52,14 @@ A collection of concepts and tools utilized in the main notebooks for training m
 ### 📖 Models
 
 - **CNN Architectures**
-  1. [**LeNet-5 Architecture**](./code/models/cnn/lenet5-architecture.ipynb)
-  1. [**AlexNet Architecture**](./code/models/cnn/alexnet-architecture.ipynb)
-  1. [**VGGNet Architecture**](./code/models/cnn/vggnet-architecture.ipynb)
-  1. [**GoogLeNet Architecture**](./code/models/cnn/googlenet-architecture.ipynb)
-  1. [**Xception Architecture**](./code/models/cnn/xception-architecture.ipynb)
-  1. [**ResNet Architecture**](./code/models/cnn/resnet-architecture.ipynb)
-  1. [**DenseNet Architecture**](./code/models/cnn/densenet-architecture.ipynb)
-  1. [**EfficientNet Architecture**](./code/models/cnn/efficientnet-architecture.ipynb)
+  1. [**LeNet-5 Architecture**](./code/models/cnn/lenet5.ipynb)
+  1. [**AlexNet Architecture**](./code/models/cnn/alexnet.ipynb)
+  1. [**VGGNet Architecture**](./code/models/cnn/vggnet.ipynb)
+  1. [**GoogLeNet Architecture**](./code/models/cnn/googlenet.ipynb)
+  1. [**Xception Architecture**](./code/models/cnn/xception.ipynb)
+  1. [**ResNet Architecture**](./code/models/cnn/resnet.ipynb)
+  1. [**DenseNet Architecture**](./code/models/cnn/densenet.ipynb)
+  1. [**EfficientNet Architecture**](./code/models/cnn/efficientnet.ipynb)
 
 ### 📖 Projects
 
