@@ -1,14 +1,14 @@
 # 🔥 PyTorch Workshop
 
 [![License](https://img.shields.io/github/license/mr-pylin/pytorch-workshop?color=blue)](https://github.com/mr-pylin/pytorch-workshop/blob/main/LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.13.9-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3139/)
-[![torch](https://img.shields.io/badge/torch-2.9.0-gold?logo=pytorch)](https://pytorch.org/)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1faf9d4577d3406a9ac65a4cb8d3d4f1)](https://app.codacy.com/gh/mr-pylin/pytorch-workshop/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Python Version](https://img.shields.io/badge/Python-3.14.7-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3139/)
+[![torch](https://img.shields.io/badge/torch-2.14.0-gold?logo=pytorch)](https://pytorch.org/)
 [![Code Style](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/psf/black)
 ![Repo Size](https://img.shields.io/github/repo-size/mr-pylin/pytorch-workshop?color=lightblue)
 ![Last Updated](https://img.shields.io/github/last-commit/mr-pylin/pytorch-workshop?color=orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?color=brightgreen)](https://github.com/mr-pylin/pytorch-workshop/pulls)
 [![Telegram](https://img.shields.io/badge/Telegram-Group-black?logo=telegram)](https://t.me/python_topics)
+<!-- [![Codacy Badge](https://app.codacy.com/project/badge/Grade/1faf9d4577d3406a9ac65a4cb8d3d4f1)](https://app.codacy.com/gh/mr-pylin/pytorch-workshop/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) -->
 
 A comprehensive **PyTorch** workshop covering the fundamentals and advanced techniques of deep learning.
 
@@ -97,7 +97,7 @@ Implementation details are provided in the **README** files within the parent di
 ## ⚙️ Setup
 
 > [!IMPORTANT]
-> This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.13.9**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
+> This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.14.7**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
 
 ### 📝 List of Dependencies
 
@@ -111,9 +111,8 @@ Implementation details are provided in the **README** files within the parent di
 [![pandas](https://img.shields.io/badge/pandas-2.3.3-yellow)](https://pypi.org/project/pandas/2.3.3/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.7.2-darkblue)](https://pypi.org/project/scikit-learn/1.7.2/)
 [![seaborn](https://img.shields.io/badge/seaborn-0.13.2-lightblue)](https://pypi.org/project/seaborn/0.13.2/)
-[![torch](https://img.shields.io/badge/torch-2.9.0-gold)](https://pytorch.org/)
-[![torchaudio](https://img.shields.io/badge/torchaudio-2.9.0-lightgreen)](https://pytorch.org/)
-[![torchvision](https://img.shields.io/badge/torchvision-0.24.0-teal)](https://pytorch.org/)
+[![torch](https://img.shields.io/badge/torch-2.14.0-gold)](https://pytorch.org/)
+[![torchvision](https://img.shields.io/badge/torchvision-0.29.0-teal)](https://pytorch.org/)
 [![torchinfo](https://img.shields.io/badge/torchinfo-1.8.0-blueviolet)](https://pypi.org/project/torchinfo/1.8.0/)
 [![torchmetrics](https://img.shields.io/badge/torchmetrics-1.8.2-lightgray)](https://pypi.org/project/torchmetrics/1.8.2/)
 

@@ -1,6 +1,6 @@
 [project]
 name = "pytorch-workshop"
-version = "0.1.0"
+version = "0.1.1"
 description = "A comprehensive resource to master PyTorch, from basics to advanced techniques, for deep learning enthusiasts and practitioners"
 authors = [
     {name = "Amirhossein Heydari", email =  "amirhosseinheydari78@gmail.com"}
@@ -15,21 +15,21 @@ license-files = [
     "LICENSE",
     "assets/images/original/LICENSE"
 ]
-requires-python = ">=3.13.9"
+requires-python = ">=3.14.7"
 dependencies = [
-    "ipykernel>=7.0.1,<8.0.0",
-    "ipympl>=0.9.8,<1.0.0",
-    "ipywidgets>=8.1.7,<9.0.0",
-    "datasets>=4.3.0,<5.0.0",
-    "matplotlib>=3.10.7,<4.0.0",
-    "numpy>=2.3.4,<3.0.0",
-    "opencv-python>=4.11.0.86,<5.0.0",
-    "pandas>=2.3.3,<3.0.0",
-    "scikit-learn>=1.7.2,<2.0.0",
+    "ipykernel>=7.3.0,<8.0.0",
+    "ipympl>=0.10.0,<1.0.0",
+    "ipywidgets>=8.1.9,<9.0.0",
+    "datasets>=5.0.1,<6.0.0",
+    "matplotlib>=3.11.2,<4.0.0",
+    "numpy>=2.5.3,<3.0.0",
+    "opencv-python>=5.0.0.93,<6.0.0",
+    "pandas>=3.0.6,<4.0.0",
+    "scikit-learn>=1.9.1,<2.0.0",
     "seaborn>=0.13.2,<1.0.0",
-    "soundfile>=0.13.1,<1.0.0",
+    "soundfile>=0.14.0,<1.0.0",
     "torchinfo>=1.8.0,<2.0.0",
-    "torchmetrics>=1.8.2,<2.0.0",
+    "torchmetrics>=1.9.0,<2.0.0",
 ]
 
 [project.urls]
@@ -38,19 +38,16 @@ MyHomepage = "https://mr-pylin.github.io"
 
 [project.optional-dependencies]
 cpu = [
-    "torch==2.9.0",
-    "torchaudio==2.9.0",
-    "torchvision==0.24.0",
+    "torch==2.14.0",
+    "torchvision==0.29.0",
 ]
 cuda = [
-    "torch==2.9.0",
-    "torchaudio==2.9.0",
-    "torchvision==0.24.0",
+    "torch==2.14.0",
+    "torchvision==0.29.0",
 ]
 rocm = [
-    "torch==2.9.0",
-    "torchaudio==2.9.0",
-    "torchvision==0.24.0",
+    "torch==2.14.0",
+    "torchvision==0.29.0",
 ]
 
 [tool.uv]
@@ -65,18 +62,14 @@ conflicts = [
 [tool.uv.sources]
 torch = [
   { index = "pytorch-cpu", extra = "cpu" },
-  { index = "pytorch-cu130", extra = "cuda" },
-#   { index = "pytorch-rocm64", extra = "rocm" },
+  { index = "pytorch-cu132", extra = "cuda" },
+#   { index = "pytorch-rocm714", extra = "rocm" },
 ]
-torchaudio = [
-  { index = "pytorch-cpu", extra = "cpu" },
-  { index = "pytorch-cu130", extra = "cuda" },
-#   { index = "pytorch-rocm64", extra = "rocm" },
-]
+
 torchvision = [
   { index = "pytorch-cpu", extra = "cpu" },
-  { index = "pytorch-cu130", extra = "cuda" },
-#   { index = "pytorch-rocm64", extra = "rocm" },
+  { index = "pytorch-cu132", extra = "cuda" },
+#   { index = "pytorch-rocm714", extra = "rocm" },
 ]
 
 [[tool.uv.index]]
@@ -85,13 +78,13 @@ url = "https://download.pytorch.org/whl/cpu"
 explicit = true
 
 [[tool.uv.index]]
-name = "pytorch-cu130"
-url = "https://download.pytorch.org/whl/cu130"
+name = "pytorch-cu132"
+url = "https://download.pytorch.org/whl/cu132"
 explicit = true
 
 [[tool.uv.index]]
-name = "pytorch-rocm64"
-url = "https://download.pytorch.org/whl/rocm6.4"
+name = "pytorch-rocm714"
+url = "https://download.pytorch.org/whl/rocm7.14"
 explicit = true
 
 [tool.black]
