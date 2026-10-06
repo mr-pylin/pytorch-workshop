@@ -51,9 +51,9 @@ A collection of concepts and tools utilized in the main notebooks for training m
 ### 📖 Models
 
 - **CNN Architectures**
-  1. [**Classic and Foundational**](./code/models/cnn/classic-and-foundational.ipynb)
-     - **LeNet-5**
-     - **AlexNet**
+  1. **Classic and Foundational**
+     - [**LeNet-5**](./code/models/cnn/lenet5.ipynb)
+     - [**AlexNet**](./code/models/cnn/alexnet.ipynb)
   1. [**VGGNet Architecture**](./code/models/cnn/vggnet.ipynb)
   1. [**GoogLeNet Architecture**](./code/models/cnn/googlenet.ipynb)
   1. [**Xception Architecture**](./code/models/cnn/xception.ipynb)
