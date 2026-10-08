@@ -54,12 +54,16 @@ A collection of concepts and tools utilized in the main notebooks for training m
   1. **Classic and Foundational**
      - [**LeNet-5**](./code/models/cnn/lenet5.ipynb)
      - [**AlexNet**](./code/models/cnn/alexnet.ipynb)
-  1. [**VGGNet Architecture**](./code/models/cnn/vggnet.ipynb)
-  1. [**GoogLeNet Architecture**](./code/models/cnn/googlenet.ipynb)
-  1. [**Xception Architecture**](./code/models/cnn/xception.ipynb)
-  1. [**ResNet Architecture**](./code/models/cnn/resnet.ipynb)
-  1. [**DenseNet Architecture**](./code/models/cnn/densenet.ipynb)
-  1. [**EfficientNet Architecture**](./code/models/cnn/efficientnet.ipynb)
+  1. **Deeper and Structured**
+     - [**VGGNet**](./code/models/cnn/vggnet.ipynb)
+     - [**GoogLeNet**](./code/models/cnn/googlenet.ipynb)
+     - [**ResNet**](./code/models/cnn/resnet.ipynb)
+  1. **Efficient and Modern**
+     - [**DenseNet**](./code/models/cnn/densenet.ipynb)
+     - **MobileNet**
+     - [**Xception**](./code/models/cnn/xception.ipynb)
+     - [**EfficientNet**](./code/models/cnn/efficientnet.ipynb)
+     - **ConvNeXt**
 
 ### 📖 Projects
 
