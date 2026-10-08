@@ -50,20 +50,15 @@ A collection of concepts and tools utilized in the main notebooks for training m
 
 ### 📖 Models
 
-- **CNN Architectures**
-  1. **Classic and Foundational**
-     - [**LeNet-5**](./code/models/cnn/lenet5.ipynb)
-     - [**AlexNet**](./code/models/cnn/alexnet.ipynb)
-  1. **Deeper and Structured**
-     - [**VGGNet**](./code/models/cnn/vggnet.ipynb)
-     - [**GoogLeNet**](./code/models/cnn/googlenet.ipynb)
-     - [**ResNet**](./code/models/cnn/resnet.ipynb)
-  1. **Efficient and Modern**
-     - [**DenseNet**](./code/models/cnn/densenet.ipynb)
-     - **MobileNet**
-     - [**Xception**](./code/models/cnn/xception.ipynb)
-     - [**EfficientNet**](./code/models/cnn/efficientnet.ipynb)
-     - **ConvNeXt**
+A collection of deep learning model architectures implemented in PyTorch.
+
+- [**MLP Architectures**](./code/models/README.md#-mlp-architectures)
+- [**CNN Architectures**](./code/models/README.md#️-cnn-architectures)
+- [**RNN Architectures**](./code/models/README.md#-rnn-architectures)
+- [**Transformer Architectures**](./code/models/README.md#-transformer-architectures)
+- [**Autoencoder Architectures**](./code/models/README.md#-autoencoder-architectures)
+
+> See the [**Models README**](./code/models/README.md) for the complete architecture list and implementation details.
 
 ### 📖 Projects
 
